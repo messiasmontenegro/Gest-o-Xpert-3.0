@@ -1,0 +1,3757 @@
+{
+  "distrito": "Distrito Rio Litoral",
+  "atualizado": "13/05/2026",
+  "data_carteira": "31/05/2026",
+  "dias_passados_m0": 13,
+  "dias_mes_m0": 31,
+  "fator_projecao": 2.3846153846153846,
+  "nome_mes_m0": "Maio",
+  "nome_mes_m1": "Abril",
+  "ano_mes_m0": 2026,
+  "hunter_inicio": "Dez/25",
+  "hunter_fim": "Mai/26",
+  "total_time_maio": 20,
+  "total_time_tpv_maio": 1060000.0,
+  "total_time_estoque": 27,
+  "total_time_tpv_estoque": 1705000.0,
+  "total_time_ativos_m0": 13,
+  "total_time_tpv_ativos_m0": 790000.0,
+  "total_time_ativos_m1": 45,
+  "total_time_tpv_m0_real_m1": 2037110.18,
+  "total_time_tpv_m0_proj_m1": 4857724.275384616,
+  "total_time_tpv_precif_m1": 3340000.0,
+  "total_time_hunter": 251,
+  "total_time_receita_hunter": 50022.060000000005,
+  "total_time_churn": 54,
+  "total_time_receita_churn": 44782.950000000004,
+  "ranking_polos_churn": [
+    {
+      "polo": "Polo Cabo Frio",
+      "especialistas": [
+        "Waldyr Junior",
+        "Agnes Serafim"
+      ],
+      "total": 11,
+      "receita": 3174.08
+    },
+    {
+      "polo": "Polo Maricá",
+      "especialistas": [
+        "Alexsander Petrovit"
+      ],
+      "total": 10,
+      "receita": 14436.210000000001
+    },
+    {
+      "polo": "Polo Rio das Ostras",
+      "especialistas": [
+        "Sidney Maia"
+      ],
+      "total": 10,
+      "receita": 11282.65
+    },
+    {
+      "polo": "Polo Teresópolis",
+      "especialistas": [
+        "Júlio César"
+      ],
+      "total": 10,
+      "receita": 8519.02
+    },
+    {
+      "polo": "Polo Macaé",
+      "especialistas": [
+        "Layla Souza",
+        "Viviane Pontes"
+      ],
+      "total": 4,
+      "receita": 3364.6000000000004
+    },
+    {
+      "polo": "Polo Nova Friburgo",
+      "especialistas": [
+        "Eduardo Bittencourt"
+      ],
+      "total": 4,
+      "receita": 1832.21
+    },
+    {
+      "polo": "Polo Saquarema",
+      "especialistas": [
+        "João Apedote"
+      ],
+      "total": 3,
+      "receita": 1097.56
+    },
+    {
+      "polo": "Polo Petrópolis",
+      "especialistas": [
+        "Thaiane Muniz",
+        "Patrick Vieira"
+      ],
+      "total": 2,
+      "receita": 1076.62
+    },
+    {
+      "polo": "Polo Rio Bonito",
+      "especialistas": [
+        "Thaís Machado"
+      ],
+      "total": 0,
+      "receita": 0
+    }
+  ],
+  "motivos_churn": [
+    "Descredenciado/Não Aprovado",
+    "Dois Cadastros",
+    "Empréstimo",
+    "Fechou",
+    "Inicio de Atividade",
+    "Outros",
+    "Prefere a Concorrência",
+    "Problemas Cadastro/Conta",
+    "Problemas POS",
+    "Problemas Stone",
+    "Reprecificação",
+    "Sazonalidade/Eventos",
+    "Sem Contato",
+    "Taxas",
+    "Troca de Cadastro",
+    "Usando apenas Link",
+    "Voltou a Transacionar"
+  ],
+  "especialistas": [
+    {
+      "email": "waldyr.junior@stone.com.br",
+      "nome": "Waldyr Junior",
+      "polo": "Polo Cabo Frio",
+      "iniciais": "WJ",
+      "novos_maio": [
+        {
+          "data": "05/05/2026",
+          "cliente": "Dep do Caetano",
+          "tpv": 100000.0
+        },
+        {
+          "data": "06/05/2026",
+          "cliente": "ESPETO DA ALDEIA",
+          "tpv": 50000.0
+        }
+      ],
+      "novos_maio_total": 2,
+      "tpv_maio": 150000.0,
+      "ativos_m0": [
+        {
+          "data_cred": "05/05/2026",
+          "data_ativ": "06/05/2026",
+          "cliente": "Dep do Caetano",
+          "tpv": 100000.0,
+          "dias_ativ": 1
+        },
+        {
+          "data_cred": "06/05/2026",
+          "data_ativ": "07/05/2026",
+          "cliente": "ESPETO DA ALDEIA",
+          "tpv": 50000.0,
+          "dias_ativ": 1
+        }
+      ],
+      "ativos_m0_total": 2,
+      "tpv_ativos_m0": 150000.0,
+      "ativos_m1": [
+        {
+          "data_ativ": "06/04/2026",
+          "cliente": "AGATHA JOALHERIA",
+          "tpv_precif": 100000.0,
+          "tpv_m0": 66945.87,
+          "tpv_proj": 159640.15153846153
+        },
+        {
+          "data_ativ": "06/04/2026",
+          "cliente": "NEW ELETRICK COMERCIAL",
+          "tpv_precif": 200000.0,
+          "tpv_m0": 84162.13,
+          "tpv_proj": 200694.31
+        },
+        {
+          "data_ativ": "08/04/2026",
+          "cliente": "A Saideira Restaurante e Choperia",
+          "tpv_precif": 100000.0,
+          "tpv_m0": 55337.24,
+          "tpv_proj": 131958.03384615385
+        },
+        {
+          "data_ativ": "15/04/2026",
+          "cliente": "BAHIA PIZZARIA",
+          "tpv_precif": 200000.0,
+          "tpv_m0": 30791.98,
+          "tpv_proj": 73427.02923076923
+        },
+        {
+          "data_ativ": "28/04/2026",
+          "cliente": "Mercado",
+          "tpv_precif": 100000.0,
+          "tpv_m0": 153407.06,
+          "tpv_proj": 365816.83538461535
+        },
+        {
+          "data_ativ": "28/04/2026",
+          "cliente": "Mercado",
+          "tpv_precif": 100000.0,
+          "tpv_m0": 221525.57,
+          "tpv_proj": 528253.2823076923
+        },
+        {
+          "data_ativ": "30/04/2026",
+          "cliente": "Baixinha Producoes",
+          "tpv_precif": 50000.0,
+          "tpv_m0": 31473.5,
+          "tpv_proj": 75052.19230769231
+        }
+      ],
+      "ativos_m1_total": 7,
+      "tpv_m0_real_m1": 643643.35,
+      "tpv_m0_proj_m1": 1534841.8346153847,
+      "tpv_precif_m1": 850000.0,
+      "estoque": [
+        {
+          "id": "604563995/669818204",
+          "data": "10/03/2026",
+          "cliente": "ALTERNATIVA DM",
+          "dias": 64,
+          "tpv": 30000.0
+        },
+        {
+          "id": "167598505",
+          "data": "13/03/2026",
+          "cliente": "Lanchonete dos anjos",
+          "dias": 61,
+          "tpv": 50000.0
+        }
+      ],
+      "estoque_total": 2,
+      "tpv_estoque": 80000.0,
+      "hunter": [
+        {
+          "id": "149978651/533221510",
+          "cliente": "Matcon ebenezer",
+          "afiliacoes": "149978651/533221510",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 4600.880000000003
+        },
+        {
+          "id": "202698636",
+          "cliente": "M E R PAPELARIA E LANCHONETE",
+          "afiliacoes": "202698636",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 2746.6200000000003
+        },
+        {
+          "id": "134620827/172460557",
+          "cliente": "EL SHADAY",
+          "afiliacoes": "134620827/172460557",
+          "segmento": "Supermercados",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 1299.73
+        },
+        {
+          "id": "979822615/249971586",
+          "cliente": "NEW ELETRICK COMERCIAL",
+          "afiliacoes": "979822615/249971586",
+          "segmento": "Esporte e Fitness",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 1266.7899999999995
+        },
+        {
+          "id": "196581203/892941574/148358096",
+          "cliente": "Brother cell",
+          "afiliacoes": "196581203/892941574/148358096",
+          "segmento": "-",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 660.0400000000002
+        },
+        {
+          "id": "179714567/118602547",
+          "cliente": "AGATHA JOALHERIA",
+          "afiliacoes": "179714567/118602547",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 628.3000000000002
+        },
+        {
+          "id": "589334574/154116471",
+          "cliente": "Mercado",
+          "afiliacoes": "589334574/154116471",
+          "segmento": "Supermercados",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 618.81
+        },
+        {
+          "id": "136680781/156465358/179801619",
+          "cliente": "Mercado",
+          "afiliacoes": "136680781/156465358/179801619",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 535.0
+        },
+        {
+          "id": "152948870/111026273",
+          "cliente": "Ki Chopp",
+          "afiliacoes": "152948870/111026273",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 467.9700000000001
+        },
+        {
+          "id": "115688793/122614308",
+          "cliente": "BRUNA JOIAS",
+          "afiliacoes": "115688793/122614308",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 432.5699999999998
+        },
+        {
+          "id": "639528894/131158088/197652351",
+          "cliente": "OPCAO DO JARDIM ATLANTICO MATERIAIS DE CONSTRUCAO",
+          "afiliacoes": "639528894/131158088/197652351",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 345.52
+        },
+        {
+          "id": "299127845/155578838/585604277",
+          "cliente": "Mercado Badico",
+          "afiliacoes": "299127845/155578838/585604277",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 310.05
+        },
+        {
+          "id": "103203326/504551393/265505193",
+          "cliente": "Padaria Sabor Real",
+          "afiliacoes": "103203326/504551393/265505193",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 284.34999999999997
+        },
+        {
+          "id": "185015291/366274991/959822617",
+          "cliente": "Patrick auto pecas",
+          "afiliacoes": "185015291/366274991/959822617",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 278.67
+        },
+        {
+          "id": "738395287/207509284/705261980",
+          "cliente": "El shaday ll",
+          "afiliacoes": "738395287/207509284/705261980",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 259.5900000000001
+        },
+        {
+          "id": "213337909/191887060",
+          "cliente": "1a Opcao Materiais De Construcao",
+          "afiliacoes": "213337909/191887060",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 243.39
+        },
+        {
+          "id": "359962340/148219656/155108533",
+          "cliente": "NUCLEAR DE ARARUMA LTDA",
+          "afiliacoes": "359962340/148219656/155108533",
+          "segmento": "Eletroeletrônicos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 242.64999999999992
+        },
+        {
+          "id": "205543636/741954392",
+          "cliente": "PRIMEIRA OPCAO DE ITAOCAIA MATERIAIS DE CONSTRUCAO",
+          "afiliacoes": "205543636/741954392",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 233.52999999999997
+        },
+        {
+          "id": "109939765/340721121",
+          "cliente": "A Saideira Restaurante e Choperia",
+          "afiliacoes": "109939765/340721121",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 219.01
+        },
+        {
+          "id": "253365510/791863440",
+          "cliente": "ELOHIM CONFEITARIA",
+          "afiliacoes": "253365510/791863440",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 207.29999999999998
+        },
+        {
+          "id": "162817878/113518829/113933781",
+          "cliente": "So Alegria",
+          "afiliacoes": "162817878/113518829/113933781",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 198.91
+        },
+        {
+          "id": "335838951/823120171/718105037",
+          "cliente": "Padaria D'Paula",
+          "afiliacoes": "335838951/823120171/718105037",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 186.2999999999999
+        },
+        {
+          "id": "199295169/737656088",
+          "cliente": "JM bebidas",
+          "afiliacoes": "199295169/737656088",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 180.03999999999996
+        },
+        {
+          "id": "250062314/115866632",
+          "cliente": "Brodao Lanchonete",
+          "afiliacoes": "250062314/115866632",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 166.23000000000002
+        },
+        {
+          "id": "207672464/283266816/650109864",
+          "cliente": "NUCLEAR REFRIGERACAO DE SAQUAREMA LTDA",
+          "afiliacoes": "207672464/283266816/650109864",
+          "segmento": "Eletroeletrônicos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 162.45000000000002
+        },
+        {
+          "id": "150350746/113478877",
+          "cliente": "Patrick Auto Pecas",
+          "afiliacoes": "150350746/113478877",
+          "segmento": "Autopeças e Serviços Automotivos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 153.24
+        },
+        {
+          "id": "627479143/670910078",
+          "cliente": "BAHIA PIZZARIA",
+          "afiliacoes": "627479143/670910078",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 140.03999999999996
+        },
+        {
+          "id": "200112952/372361879/651806501",
+          "cliente": "ampm posto Ipiranga Caxito",
+          "afiliacoes": "200112952/372361879/651806501",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 95.27999999999999
+        },
+        {
+          "id": "145385135/390851039/168498383",
+          "cliente": "Baixinha Producoes",
+          "afiliacoes": "145385135/390851039/168498383",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 80.92
+        },
+        {
+          "id": "946928583/234589896",
+          "cliente": "ARKAN E KRANZ",
+          "afiliacoes": "946928583/234589896",
+          "segmento": "Outros Comércios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 79.40000000000002
+        },
+        {
+          "id": "121813063/137562052",
+          "cliente": "SMARTCASE",
+          "afiliacoes": "121813063/137562052",
+          "segmento": "Telecomunicações",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 79.4
+        },
+        {
+          "id": "133198362/164639072",
+          "cliente": "Tayyib hamburgueria e esfriaria",
+          "afiliacoes": "133198362/164639072",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 64.08
+        },
+        {
+          "id": "275374212/674365734/141023034",
+          "cliente": "IKONCEITO RESTAURANTE E DELIVERY LTDA",
+          "afiliacoes": "275374212/674365734/141023034",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 49.91999999999999
+        },
+        {
+          "id": "111208659/838588905",
+          "cliente": "PRIMEIRA OPCAO DE ITAI",
+          "afiliacoes": "111208659/838588905",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 44.55000000000001
+        },
+        {
+          "id": "212385795/208463762",
+          "cliente": "Dep do Caetano",
+          "afiliacoes": "212385795/208463762",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 36.94
+        },
+        {
+          "id": "131782100/295171071/119139331",
+          "cliente": "ESPETO DA ALDEIA",
+          "afiliacoes": "131782100/295171071/119139331",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 34.41
+        },
+        {
+          "id": "166652093/684305329/437744702",
+          "cliente": "Alter bebidas",
+          "afiliacoes": "166652093/684305329/437744702",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 20.05
+        },
+        {
+          "id": "447260367/155939967/896342123",
+          "cliente": "Di Souza Veiculos Ltda",
+          "afiliacoes": "447260367/155939967/896342123",
+          "segmento": "Comércio de Veículos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.04
+        },
+        {
+          "id": "825669402/163228131/862011553",
+          "cliente": "Deposito e distribuidora",
+          "afiliacoes": "825669402/163228131/862011553",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.02
+        },
+        {
+          "id": "180065776/148456850/720173939",
+          "cliente": "Confeitaria Cabo Frio",
+          "afiliacoes": "180065776/148456850/720173939",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        }
+      ],
+      "hunter_total": 40,
+      "receita_hunter": 17652.99,
+      "churn": [
+        {
+          "id": "127711832/979474272/126382672",
+          "cliente": "BREW BEACH",
+          "rota": "ARRAIAL DO CABO",
+          "afiliacoes": "127711832/979474272/126382672",
+          "receita": 853.83,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "174596741/129051448",
+          "cliente": "PADARIA E RESTAURANTE MINEIRO",
+          "rota": "GERIBA BEACH",
+          "afiliacoes": "174596741/129051448",
+          "receita": 650.55,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "716080778/804140804",
+          "cliente": "Chef Grill",
+          "rota": "PORTINHO",
+          "afiliacoes": "716080778/804140804",
+          "receita": 487.24,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "431182074/526015265/379615764",
+          "cliente": "LA BARCELONETA",
+          "rota": "BUZIOS CENTRO",
+          "afiliacoes": "431182074/526015265/379615764",
+          "receita": 226.76,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "164506929/330263466",
+          "cliente": "L F Ramos",
+          "rota": "PORTINHO",
+          "afiliacoes": "164506929/330263466",
+          "receita": 225.89,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "536748276/864794127/568548626",
+          "cliente": "Casa da Roca",
+          "rota": "GERIBA BEACH",
+          "afiliacoes": "536748276/864794127/568548626",
+          "receita": 211.66,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "181444618/110056309",
+          "cliente": "TRATTORIA BUZIOS",
+          "rota": "BUZIOS CENTRO",
+          "afiliacoes": "181444618/110056309",
+          "receita": 189.22,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "647686886",
+          "cliente": "DON LEAL EVENTOS",
+          "rota": "SAO PEDRO CENTRO",
+          "afiliacoes": "647686886",
+          "receita": 167.64,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "147967763/199588003",
+          "cliente": "ILHA BRANCA EXCLUSIVE VD",
+          "rota": "BUZIOS CENTRO",
+          "afiliacoes": "147967763/199588003",
+          "receita": 161.29,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "824651997/135153662",
+          "cliente": "Samuelzinho Som",
+          "rota": "JARDIM ESPERANCA",
+          "afiliacoes": "824651997/135153662",
+          "receita": 0.0,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "180065776/148456850/720173939",
+          "cliente": "Confeitaria Cabo Frio",
+          "rota": "PRAIA DO FORTE",
+          "afiliacoes": "180065776/148456850/720173939",
+          "receita": 0.0,
+          "esp_credenciou": "Cabo Frio"
+        }
+      ],
+      "churn_total": 11,
+      "receita_churn": 3174.08
+    },
+    {
+      "email": "agnes.serafim@stone.com.br",
+      "nome": "Agnes Serafim",
+      "polo": "Polo Cabo Frio",
+      "iniciais": "AS",
+      "novos_maio": [
+        {
+          "data": "06/05/2026",
+          "cliente": "NOI MCS AZEDA",
+          "tpv": 50000.0
+        },
+        {
+          "data": "11/05/2026",
+          "cliente": "Ancho e faca",
+          "tpv": 100000.0
+        },
+        {
+          "data": "11/05/2026",
+          "cliente": "DON LEAL FRANQUEADORA",
+          "tpv": 30000.0
+        },
+        {
+          "data": "11/05/2026",
+          "cliente": "DonLeal CeL",
+          "tpv": 30000.0
+        },
+        {
+          "data": "11/05/2026",
+          "cliente": "DonLeal PeA",
+          "tpv": 30000.0
+        },
+        {
+          "data": "12/05/2026",
+          "cliente": "Cabo Frio iPhone",
+          "tpv": 100000.0
+        }
+      ],
+      "novos_maio_total": 6,
+      "tpv_maio": 340000.0,
+      "ativos_m0": [
+        {
+          "data_cred": "12/05/2026",
+          "data_ativ": "12/05/2026",
+          "cliente": "Cabo Frio iPhone",
+          "tpv": 100000.0,
+          "dias_ativ": 0
+        }
+      ],
+      "ativos_m0_total": 1,
+      "tpv_ativos_m0": 100000.0,
+      "ativos_m1": [
+        {
+          "data_ativ": "22/04/2026",
+          "cliente": "Arte e Pao",
+          "tpv_precif": 30000.0,
+          "tpv_m0": 7657.77,
+          "tpv_proj": 18260.836153846154
+        },
+        {
+          "data_ativ": "23/04/2026",
+          "cliente": "Principal farma",
+          "tpv_precif": 50000.0,
+          "tpv_m0": 47193.08,
+          "tpv_proj": 112537.34461538462
+        },
+        {
+          "data_ativ": "27/04/2026",
+          "cliente": "DROGARIAS EDUARDO 03",
+          "tpv_precif": 50000.0,
+          "tpv_m0": 24226.75,
+          "tpv_proj": 57771.480769230766
+        },
+        {
+          "data_ativ": "27/04/2026",
+          "cliente": "DROGARIAS EDUARDO 02",
+          "tpv_precif": 100000.0,
+          "tpv_m0": 26470.32,
+          "tpv_proj": 63121.53230769231
+        },
+        {
+          "data_ativ": "27/04/2026",
+          "cliente": "Drogarias Eduardo 01",
+          "tpv_precif": 100000.0,
+          "tpv_m0": 20219.75,
+          "tpv_proj": 48216.32692307692
+        },
+        {
+          "data_ativ": "29/04/2026",
+          "cliente": "Samuelzinho Som",
+          "tpv_precif": 30000.0,
+          "tpv_m0": 0.0,
+          "tpv_proj": 0.0
+        }
+      ],
+      "ativos_m1_total": 6,
+      "tpv_m0_real_m1": 125767.67,
+      "tpv_m0_proj_m1": 299907.5207692308,
+      "tpv_precif_m1": 360000.0,
+      "estoque": [
+        {
+          "id": "923348414",
+          "data": "20/04/2026",
+          "cliente": "ACAILAND BUZIOS",
+          "dias": 23,
+          "tpv": 30000.0
+        },
+        {
+          "id": "345668514/139645430",
+          "data": "06/05/2026",
+          "cliente": "NOI MCS AZEDA",
+          "dias": 7,
+          "tpv": 50000.0
+        },
+        {
+          "id": "625460893/151930375",
+          "data": "11/05/2026",
+          "cliente": "Ancho e faca",
+          "dias": 2,
+          "tpv": 100000.0
+        },
+        {
+          "id": "848391585/214372945",
+          "data": "11/05/2026",
+          "cliente": "DON LEAL FRANQUEADORA",
+          "dias": 2,
+          "tpv": 30000.0
+        },
+        {
+          "id": "102650281/163917242",
+          "data": "11/05/2026",
+          "cliente": "DonLeal CeL",
+          "dias": 2,
+          "tpv": 30000.0
+        },
+        {
+          "id": "890236921/127901035",
+          "data": "11/05/2026",
+          "cliente": "DonLeal PeA",
+          "dias": 2,
+          "tpv": 30000.0
+        }
+      ],
+      "estoque_total": 6,
+      "tpv_estoque": 270000.0,
+      "hunter": [
+        {
+          "id": "807034184",
+          "cliente": "iPhone CF",
+          "afiliacoes": "807034184",
+          "segmento": "-",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 4056.709999999999
+        },
+        {
+          "id": "210709984/175008351",
+          "cliente": "PATO NA JANELA LOUNGE",
+          "afiliacoes": "210709984/175008351",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 386.52
+        },
+        {
+          "id": "199143315/190445148",
+          "cliente": "ACOUGUE UNIAO",
+          "afiliacoes": "199143315/190445148",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 249.0000000000001
+        },
+        {
+          "id": "288392567/114164417/110695247",
+          "cliente": "J e J Deposito de Bebidas",
+          "afiliacoes": "288392567/114164417/110695247",
+          "segmento": "-",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 245.57999999999998
+        },
+        {
+          "id": "623425198/163175729",
+          "cliente": "PADARIA E CONFEITARIA SKINA DE MINAS III",
+          "afiliacoes": "623425198/163175729",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 213.29
+        },
+        {
+          "id": "570802161/848219449",
+          "cliente": "FLYBOAT BUZIOS",
+          "afiliacoes": "570802161/848219449",
+          "segmento": "Educação",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 196.26000000000005
+        },
+        {
+          "id": "198121280/178575077/138490219",
+          "cliente": "Cabo Frio iPhone",
+          "afiliacoes": "198121280/178575077/138490219",
+          "segmento": "-",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 150.6199999999999
+        },
+        {
+          "id": "205539656/771044332/109010303",
+          "cliente": "QUIOSQUE SHOPPING PARK LAGOS",
+          "afiliacoes": "205539656/771044332/109010303",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 122.74000000000001
+        },
+        {
+          "id": "915201285/160828000",
+          "cliente": "Deposito JJ",
+          "afiliacoes": "915201285/160828000",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 85.78999999999999
+        },
+        {
+          "id": "824651997/135153662",
+          "cliente": "Samuelzinho Som",
+          "afiliacoes": "824651997/135153662",
+          "segmento": "Musica e Video",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 81.78
+        },
+        {
+          "id": "982272411/205967549",
+          "cliente": "NK EMPREENDIMENTOS GASTRONOMICOS",
+          "afiliacoes": "982272411/205967549",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 80.16999999999999
+        },
+        {
+          "id": "110742054/118805159",
+          "cliente": "Arte e Pao",
+          "afiliacoes": "110742054/118805159",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 65.09
+        },
+        {
+          "id": "230100792/116970660",
+          "cliente": "IKON RESTAURANTE E DELIVERY",
+          "afiliacoes": "230100792/116970660",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 52.93999999999998
+        },
+        {
+          "id": "487684479/190457126/614439876",
+          "cliente": "POUSADA ESTRELAMAR FERRADURA",
+          "afiliacoes": "487684479/190457126/614439876",
+          "segmento": "Imóveis e Hospedagem",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 48.63
+        },
+        {
+          "id": "647686886",
+          "cliente": "DON LEAL EVENTOS",
+          "afiliacoes": "647686886",
+          "segmento": "Ingressos, Eventos e Festas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 43.0
+        },
+        {
+          "id": "139654587/525669335/129887295",
+          "cliente": "Salinas",
+          "afiliacoes": "139654587/525669335/129887295",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 18.32
+        },
+        {
+          "id": "877358663/831597897",
+          "cliente": "ACOUGUE SHALOM",
+          "afiliacoes": "877358663/831597897",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 18.21
+        },
+        {
+          "id": "178673843/114792918",
+          "cliente": "PADARIA E CONFEITARIA DOCE SONHO",
+          "afiliacoes": "178673843/114792918",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 13.7
+        },
+        {
+          "id": "754933553/113545055",
+          "cliente": "PADARIA E CONFEITARIA DOCE SONHO",
+          "afiliacoes": "754933553/113545055",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 9.85
+        },
+        {
+          "id": "592698411/170504341",
+          "cliente": "WWS 2010 COMERCIO E DISTRIBUICAO",
+          "afiliacoes": "592698411/170504341",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 9.350000000000001
+        },
+        {
+          "id": "696301431/130575126",
+          "cliente": "Drogarias Eduardo 01",
+          "afiliacoes": "696301431/130575126",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 2.759999999999991
+        },
+        {
+          "id": "824124225/792395628",
+          "cliente": "DROGARIAS EDUARDO 02",
+          "afiliacoes": "824124225/792395628",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 1.2700000000000102
+        },
+        {
+          "id": "152960123/212755892/603114808",
+          "cliente": "Farmacias Predileta SJ",
+          "afiliacoes": "152960123/212755892/603114808",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.8100000000000023
+        },
+        {
+          "id": "183793450/175871052",
+          "cliente": "DonLeal Boutique",
+          "afiliacoes": "183793450/175871052",
+          "segmento": "Consertos, Obras e Manutenção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        },
+        {
+          "id": "178539481/353014525",
+          "cliente": "MMS FERRAZ",
+          "afiliacoes": "178539481/353014525",
+          "segmento": "Outros Serviços",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        },
+        {
+          "id": "111282912/151355774/101388851",
+          "cliente": "GRUPO NK",
+          "afiliacoes": "111282912/151355774/101388851",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        },
+        {
+          "id": "185226346/115442189",
+          "cliente": "Principal farma",
+          "afiliacoes": "185226346/115442189",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": -2.0199999999999996
+        },
+        {
+          "id": "203132027/143675094",
+          "cliente": "DROGARIAS EDUARDO 03",
+          "afiliacoes": "203132027/143675094",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": -9.86999999999999
+        },
+        {
+          "id": "542930719/956571640",
+          "cliente": "Farmacias Predileta CF",
+          "afiliacoes": "542930719/956571640",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": -25.56
+        },
+        {
+          "id": "141179121/157926118",
+          "cliente": "Drogaria Buzios Matriz",
+          "afiliacoes": "141179121/157926118",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": -336.84000000000003
+        }
+      ],
+      "hunter_total": 30,
+      "receita_hunter": 5778.099999999999,
+      "churn": [
+        {
+          "id": "127711832/979474272/126382672",
+          "cliente": "BREW BEACH",
+          "rota": "ARRAIAL DO CABO",
+          "afiliacoes": "127711832/979474272/126382672",
+          "receita": 853.83,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "174596741/129051448",
+          "cliente": "PADARIA E RESTAURANTE MINEIRO",
+          "rota": "GERIBA BEACH",
+          "afiliacoes": "174596741/129051448",
+          "receita": 650.55,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "716080778/804140804",
+          "cliente": "Chef Grill",
+          "rota": "PORTINHO",
+          "afiliacoes": "716080778/804140804",
+          "receita": 487.24,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "431182074/526015265/379615764",
+          "cliente": "LA BARCELONETA",
+          "rota": "BUZIOS CENTRO",
+          "afiliacoes": "431182074/526015265/379615764",
+          "receita": 226.76,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "164506929/330263466",
+          "cliente": "L F Ramos",
+          "rota": "PORTINHO",
+          "afiliacoes": "164506929/330263466",
+          "receita": 225.89,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "536748276/864794127/568548626",
+          "cliente": "Casa da Roca",
+          "rota": "GERIBA BEACH",
+          "afiliacoes": "536748276/864794127/568548626",
+          "receita": 211.66,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "181444618/110056309",
+          "cliente": "TRATTORIA BUZIOS",
+          "rota": "BUZIOS CENTRO",
+          "afiliacoes": "181444618/110056309",
+          "receita": 189.22,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "647686886",
+          "cliente": "DON LEAL EVENTOS",
+          "rota": "SAO PEDRO CENTRO",
+          "afiliacoes": "647686886",
+          "receita": 167.64,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "147967763/199588003",
+          "cliente": "ILHA BRANCA EXCLUSIVE VD",
+          "rota": "BUZIOS CENTRO",
+          "afiliacoes": "147967763/199588003",
+          "receita": 161.29,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "824651997/135153662",
+          "cliente": "Samuelzinho Som",
+          "rota": "JARDIM ESPERANCA",
+          "afiliacoes": "824651997/135153662",
+          "receita": 0.0,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "180065776/148456850/720173939",
+          "cliente": "Confeitaria Cabo Frio",
+          "rota": "PRAIA DO FORTE",
+          "afiliacoes": "180065776/148456850/720173939",
+          "receita": 0.0,
+          "esp_credenciou": "Cabo Frio"
+        }
+      ],
+      "churn_total": 11,
+      "receita_churn": 3174.08
+    },
+    {
+      "email": "joao.apedote@stone.com.br",
+      "nome": "João Apedote",
+      "polo": "Polo Saquarema",
+      "iniciais": "JA",
+      "novos_maio": [],
+      "novos_maio_total": 0,
+      "tpv_maio": 0,
+      "ativos_m0": [
+        {
+          "data_cred": "30/04/2026",
+          "data_ativ": "12/05/2026",
+          "cliente": "Zap Lanches J",
+          "tpv": 30000.0,
+          "dias_ativ": 12
+        }
+      ],
+      "ativos_m0_total": 1,
+      "tpv_ativos_m0": 30000.0,
+      "ativos_m1": [
+        {
+          "data_ativ": "02/04/2026",
+          "cliente": "AGROPECUARIA NUTRIMAIS",
+          "tpv_precif": 20000.0,
+          "tpv_m0": 10504.72,
+          "tpv_proj": 25049.71692307692
+        },
+        {
+          "data_ativ": "02/04/2026",
+          "cliente": "ZAP Pizza",
+          "tpv_precif": 150000.0,
+          "tpv_m0": 171021.38,
+          "tpv_proj": 407820.21384615387
+        },
+        {
+          "data_ativ": "20/04/2026",
+          "cliente": "Spetolla",
+          "tpv_precif": 50000.0,
+          "tpv_m0": 15623.85,
+          "tpv_proj": 37256.873076923075
+        },
+        {
+          "data_ativ": "22/04/2026",
+          "cliente": "OTICA COSTA",
+          "tpv_precif": 50000.0,
+          "tpv_m0": 86746.0,
+          "tpv_proj": 206855.84615384616
+        },
+        {
+          "data_ativ": "26/04/2026",
+          "cliente": "AVEIRO PIZZARIA",
+          "tpv_precif": 30000.0,
+          "tpv_m0": 81.9,
+          "tpv_proj": 195.3
+        }
+      ],
+      "ativos_m1_total": 5,
+      "tpv_m0_real_m1": 283977.85,
+      "tpv_m0_proj_m1": 677177.9500000001,
+      "tpv_precif_m1": 300000.0,
+      "estoque": [],
+      "estoque_total": 0,
+      "tpv_estoque": 0,
+      "hunter": [
+        {
+          "id": "816909668/502481853/373211929",
+          "cliente": "Biel e Niel",
+          "afiliacoes": "816909668/502481853/373211929",
+          "segmento": "Supermercados",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 1048.35
+        },
+        {
+          "id": "726730110/161631700",
+          "cliente": "ZAP Pizza",
+          "afiliacoes": "726730110/161631700",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 531.13
+        },
+        {
+          "id": "194588837/887900168",
+          "cliente": "Cantinho do tempero",
+          "afiliacoes": "194588837/887900168",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 329.20000000000005
+        },
+        {
+          "id": "200604192/181151772",
+          "cliente": "DON FRATELLI PIZZARIA",
+          "afiliacoes": "200604192/181151772",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 316.71000000000004
+        },
+        {
+          "id": "177392013/137624482",
+          "cliente": "Casa da Picanha",
+          "afiliacoes": "177392013/137624482",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 309.82
+        },
+        {
+          "id": "184100334/243702744/723431704",
+          "cliente": "OTICA COSTA",
+          "afiliacoes": "184100334/243702744/723431704",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 263.60000000000036
+        },
+        {
+          "id": "137377660/193466732/876739828",
+          "cliente": "SUSHI POINT",
+          "afiliacoes": "137377660/193466732/876739828",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 146.32999999999998
+        },
+        {
+          "id": "116754155/157103625/163508883",
+          "cliente": "SUSHI POINT ARARUAMA",
+          "afiliacoes": "116754155/157103625/163508883",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 143.23999999999998
+        },
+        {
+          "id": "157447030/886625020",
+          "cliente": "DROG MONICA / INOVA",
+          "afiliacoes": "157447030/886625020",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 140.29000000000002
+        },
+        {
+          "id": "361734537/190263280/139847673",
+          "cliente": "Spetolla",
+          "afiliacoes": "361734537/190263280/139847673",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 106.64000000000001
+        },
+        {
+          "id": "180607398/204520926",
+          "cliente": "REDE INOVA DROGARIAS",
+          "afiliacoes": "180607398/204520926",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 91.9
+        },
+        {
+          "id": "158102006/505905354/152387532",
+          "cliente": "Nutri Mais Campo Redondo",
+          "afiliacoes": "158102006/505905354/152387532",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 91.12
+        },
+        {
+          "id": "161545821/445011705",
+          "cliente": "OUTLET",
+          "afiliacoes": "161545821/445011705",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 84.6
+        },
+        {
+          "id": "516163094/102571523/192130668/165158363",
+          "cliente": "Apaixonados por 4 patas bacaxa",
+          "afiliacoes": "516163094/102571523/192130668/165158363",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 78.07
+        },
+        {
+          "id": "298933446/174791180",
+          "cliente": "Cantinho do Tempero",
+          "afiliacoes": "298933446/174791180",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 72.6
+        },
+        {
+          "id": "211250869/779846543",
+          "cliente": "Nutri Mais SPA",
+          "afiliacoes": "211250869/779846543",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 56.53
+        },
+        {
+          "id": "119293782/126445437",
+          "cliente": "Nutrimais Iguaba",
+          "afiliacoes": "119293782/126445437",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 39.36
+        },
+        {
+          "id": "403992708/169529109/429676143",
+          "cliente": "Boali Healthy Food",
+          "afiliacoes": "403992708/169529109/429676143",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 32.34
+        },
+        {
+          "id": "811075264/656853672",
+          "cliente": "Nutri Mais SJ",
+          "afiliacoes": "811075264/656853672",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 22.73
+        },
+        {
+          "id": "768780598/113174658/712563190",
+          "cliente": "MITRA",
+          "afiliacoes": "768780598/113174658/712563190",
+          "segmento": "Esporte e Fitness",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 22.67
+        },
+        {
+          "id": "134518897",
+          "cliente": "MONICA DROGARIAS E PERFUMARIA",
+          "afiliacoes": "134518897",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 21.15
+        },
+        {
+          "id": "213242057/172699322/109582739",
+          "cliente": "AGROPECUARIA NUTRIMAIS",
+          "afiliacoes": "213242057/172699322/109582739",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 14.09
+        },
+        {
+          "id": "129702554/201027563",
+          "cliente": "DOMINO S ARARUAMA",
+          "afiliacoes": "129702554/201027563",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 12.379999999999995
+        },
+        {
+          "id": "182031610/592233768",
+          "cliente": "NUTRIMAIS",
+          "afiliacoes": "182031610/592233768",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 11.620000000000001
+        },
+        {
+          "id": "100902765/812892201",
+          "cliente": "Nutri Mais Porto",
+          "afiliacoes": "100902765/812892201",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 9.0
+        },
+        {
+          "id": "195273992/432773260/135065538",
+          "cliente": "MITRA ACADEMIA",
+          "afiliacoes": "195273992/432773260/135065538",
+          "segmento": "Esporte e Fitness",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 6.85
+        },
+        {
+          "id": "161574777/840058435",
+          "cliente": "Lagos Ferro e Aco",
+          "afiliacoes": "161574777/840058435",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 1.4
+        },
+        {
+          "id": "217049630/136792627",
+          "cliente": "AVEIRO PIZZARIA",
+          "afiliacoes": "217049630/136792627",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.42000000000000004
+        },
+        {
+          "id": "133717072/792866465/202245003",
+          "cliente": "BIG PAO",
+          "afiliacoes": "133717072/792866465/202245003",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.01
+        },
+        {
+          "id": "728427721/275649828/127914094",
+          "cliente": "CANTINHO DO TEMPERO",
+          "afiliacoes": "728427721/275649828/127914094",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        },
+        {
+          "id": "199915002/249821143/178627406",
+          "cliente": "Zap Lanches J",
+          "afiliacoes": "199915002/249821143/178627406",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": -0.06
+        }
+      ],
+      "hunter_total": 31,
+      "receita_hunter": 4004.09,
+      "churn": [
+        {
+          "id": "467641790",
+          "cliente": "Cafe Capri",
+          "rota": "PARQUE HOTEL",
+          "afiliacoes": "467641790",
+          "receita": 446.54,
+          "esp_credenciou": "Saquarema"
+        },
+        {
+          "id": "132677938/119131614",
+          "cliente": "Padaria Amorim 2",
+          "rota": "CENTRO",
+          "afiliacoes": "132677938/119131614",
+          "receita": 445.09,
+          "esp_credenciou": "Saquarema"
+        },
+        {
+          "id": "273111377/112400534/641670492",
+          "cliente": "BELISQUE CHOPP E GRILL",
+          "rota": "CENTRO",
+          "afiliacoes": "273111377/112400534/641670492",
+          "receita": 205.93,
+          "esp_credenciou": "Saquarema"
+        }
+      ],
+      "churn_total": 3,
+      "receita_churn": 1097.56
+    },
+    {
+      "email": "sidney.maia@stone.com.br",
+      "nome": "Sidney Maia",
+      "polo": "Polo Rio das Ostras",
+      "iniciais": "SM",
+      "novos_maio": [
+        {
+          "data": "06/05/2026",
+          "cliente": "HORTIFRUTI 5 ESTRELAS E",
+          "tpv": 50000.0
+        },
+        {
+          "data": "07/05/2026",
+          "cliente": "Oficina das tintas",
+          "tpv": 50000.0
+        },
+        {
+          "data": "07/05/2026",
+          "cliente": "SHOW TINTAS AUTO",
+          "tpv": 50000.0
+        },
+        {
+          "data": "07/05/2026",
+          "cliente": "SHOW TINTAS",
+          "tpv": 50000.0
+        }
+      ],
+      "novos_maio_total": 4,
+      "tpv_maio": 200000.0,
+      "ativos_m0": [
+        {
+          "data_cred": "06/05/2026",
+          "data_ativ": "07/05/2026",
+          "cliente": "HORTIFRUTI 5 ESTRELAS E",
+          "tpv": 50000.0,
+          "dias_ativ": 1
+        },
+        {
+          "data_cred": "27/04/2026",
+          "data_ativ": "07/05/2026",
+          "cliente": "BRAVE GYM CASIMIRO DE ABREU",
+          "tpv": 30000.0,
+          "dias_ativ": 10
+        }
+      ],
+      "ativos_m0_total": 2,
+      "tpv_ativos_m0": 80000.0,
+      "ativos_m1": [
+        {
+          "data_ativ": "04/04/2026",
+          "cliente": "PRAIA BIKE",
+          "tpv_precif": 200000.0,
+          "tpv_m0": 218737.6,
+          "tpv_proj": 521605.04615384614
+        },
+        {
+          "data_ativ": "16/04/2026",
+          "cliente": "BETAO HOT DOG",
+          "tpv_precif": 30000.0,
+          "tpv_m0": 4537.3,
+          "tpv_proj": 10819.715384615385
+        },
+        {
+          "data_ativ": "18/04/2026",
+          "cliente": "Splash Piscinas",
+          "tpv_precif": 30000.0,
+          "tpv_m0": 23231.02,
+          "tpv_proj": 55397.04769230769
+        },
+        {
+          "data_ativ": "20/04/2026",
+          "cliente": "Realize Hidro e SPA",
+          "tpv_precif": 30000.0,
+          "tpv_m0": 747.78,
+          "tpv_proj": 1783.1676923076923
+        },
+        {
+          "data_ativ": "24/04/2026",
+          "cliente": "NOVA OPCAO TEMPER",
+          "tpv_precif": 50000.0,
+          "tpv_m0": 37527.77,
+          "tpv_proj": 89489.29769230768
+        }
+      ],
+      "ativos_m1_total": 5,
+      "tpv_m0_real_m1": 284781.47000000003,
+      "tpv_m0_proj_m1": 679094.2746153846,
+      "tpv_precif_m1": 340000.0,
+      "estoque": [
+        {
+          "id": "160784959/106781987/994061771",
+          "data": "11/02/2026",
+          "cliente": "DROGARIA MAIS BARATO",
+          "dias": 91,
+          "tpv": 100000.0
+        },
+        {
+          "id": "715046553",
+          "data": "07/04/2026",
+          "cliente": "QUIOSQUE PATIO ALCANTARA LTDA",
+          "dias": 36,
+          "tpv": 30000.0
+        },
+        {
+          "id": "139104602/155591298/104129696",
+          "data": "07/04/2026",
+          "cliente": "LANCHONETE PATIO ALCANTARA LTDA",
+          "dias": 36,
+          "tpv": 100000.0
+        },
+        {
+          "id": "182040670/565835588/234522997",
+          "data": "13/04/2026",
+          "cliente": "NOVA OPCAO TEMPER",
+          "dias": 30,
+          "tpv": 50000.0
+        },
+        {
+          "id": "146548291",
+          "data": "07/05/2026",
+          "cliente": "Oficina das tintas",
+          "dias": 6,
+          "tpv": 50000.0
+        },
+        {
+          "id": "110435883",
+          "data": "07/05/2026",
+          "cliente": "SHOW TINTAS AUTO",
+          "dias": 6,
+          "tpv": 50000.0
+        },
+        {
+          "id": "106019569",
+          "data": "07/05/2026",
+          "cliente": "SHOW TINTAS",
+          "dias": 6,
+          "tpv": 50000.0
+        }
+      ],
+      "estoque_total": 7,
+      "tpv_estoque": 430000.0,
+      "hunter": [
+        {
+          "id": "102101440/153408338/202284758",
+          "cliente": "PRAIA BIKE",
+          "afiliacoes": "102101440/153408338/202284758",
+          "segmento": "Esporte e Fitness",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 1402.8600000000006
+        },
+        {
+          "id": "147039592/503226171",
+          "cliente": "MERCADO 5 ESTRELAS",
+          "afiliacoes": "147039592/503226171",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 1018.3299999999999
+        },
+        {
+          "id": "202142668/164320433",
+          "cliente": "HESPANHOL BEBIDAS",
+          "afiliacoes": "202142668/164320433",
+          "segmento": "Supermercados",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 414.96000000000004
+        },
+        {
+          "id": "123053646/989880385",
+          "cliente": "SUPERMECADO ELSHADAY",
+          "afiliacoes": "123053646/989880385",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 389.90000000000003
+        },
+        {
+          "id": "201043405/151347279/515292622",
+          "cliente": "FENIX SUPERMERCADOS LTDA",
+          "afiliacoes": "201043405/151347279/515292622",
+          "segmento": "Supermercados",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 282.17999999999995
+        },
+        {
+          "id": "144333863/156957640/135959048",
+          "cliente": "DELIVERY GASTROMANIA",
+          "afiliacoes": "144333863/156957640/135959048",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 242.29000000000002
+        },
+        {
+          "id": "128545836/127161477/958794816",
+          "cliente": "FREIRE FARMA",
+          "afiliacoes": "128545836/127161477/958794816",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 188.25
+        },
+        {
+          "id": "105265961/164553989/177624986",
+          "cliente": "HORTIFRUTI 5 ESTRELAS E",
+          "afiliacoes": "105265961/164553989/177624986",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 168.31
+        },
+        {
+          "id": "167351223/609493722",
+          "cliente": "PIZZARIA E LANCHONETE WI",
+          "afiliacoes": "167351223/609493722",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 160.48999999999998
+        },
+        {
+          "id": "592534532/146120231/432689481",
+          "cliente": "BBS AUTO PECAS",
+          "afiliacoes": "592534532/146120231/432689481",
+          "segmento": "Autopeças e Serviços Automotivos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 155.39
+        },
+        {
+          "id": "195717439/129810023/150687650",
+          "cliente": "MERCADO 5 ESTRELAS BR",
+          "afiliacoes": "195717439/129810023/150687650",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 151.29000000000002
+        },
+        {
+          "id": "140642847/123934014",
+          "cliente": "RESTAURANTE CASA DO MAR",
+          "afiliacoes": "140642847/123934014",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 150.14999999999998
+        },
+        {
+          "id": "214086788/134337410/165628498/154223841/197550687/195793975",
+          "cliente": "Dra Juliana",
+          "afiliacoes": "214086788/134337410/165628498/154223841/197550687/195793975",
+          "segmento": "Serviços de Saúde e Clínicas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 137.74999999999994
+        },
+        {
+          "id": "172096614/177592521/199227575",
+          "cliente": "NOVA OPCAO TEMPER",
+          "afiliacoes": "172096614/177592521/199227575",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 128.58999999999997
+        },
+        {
+          "id": "948999056/183870917/187920191/398304408",
+          "cliente": "NEGUINHO DO GAS",
+          "afiliacoes": "948999056/183870917/187920191/398304408",
+          "segmento": "Postos de Gasolina e Similares",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 124.59
+        },
+        {
+          "id": "295564491/845167450",
+          "cliente": "NOVA STELL DECOR",
+          "afiliacoes": "295564491/845167450",
+          "segmento": "Outros Serviços",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 112.85000000000002
+        },
+        {
+          "id": "110024828/163572999/400642609",
+          "cliente": "DEPOSITO DO TUCANO",
+          "afiliacoes": "110024828/163572999/400642609",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 98.72
+        },
+        {
+          "id": "201953452/306748980",
+          "cliente": "SUPERMECADO ELSHADAY",
+          "afiliacoes": "201953452/306748980",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 86.6
+        },
+        {
+          "id": "108609329/287139490",
+          "cliente": "AUTOPECAS DO FABINHO",
+          "afiliacoes": "108609329/287139490",
+          "segmento": "Autopeças e Serviços Automotivos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 86.39999999999999
+        },
+        {
+          "id": "112867773/159600145",
+          "cliente": "MATERIAL DE CONSTRUCAO SPANDIR",
+          "afiliacoes": "112867773/159600145",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 73.98999999999998
+        },
+        {
+          "id": "969020529/191600263",
+          "cliente": "BETAO HOT DOG",
+          "afiliacoes": "969020529/191600263",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 57.06
+        },
+        {
+          "id": "883281211/709231300",
+          "cliente": "BRAVE GYM CASIMIRO DE ABREU",
+          "afiliacoes": "883281211/709231300",
+          "segmento": "Esporte e Fitness",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 48.21
+        },
+        {
+          "id": "166635270/453196393",
+          "cliente": "Splash Piscinas",
+          "afiliacoes": "166635270/453196393",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 15.610000000000127
+        },
+        {
+          "id": "116410953/184684728/113983476",
+          "cliente": "PAPELE CAMPOS",
+          "afiliacoes": "116410953/184684728/113983476",
+          "segmento": "Livrarias, Papelarias, Gráficas e Bancas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 10.120000000000001
+        },
+        {
+          "id": "475364174/200123698",
+          "cliente": "Hanatake II",
+          "afiliacoes": "475364174/200123698",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 9.66
+        },
+        {
+          "id": "158239563/167127258/239758918",
+          "cliente": "Realize Hidro e SPA",
+          "afiliacoes": "158239563/167127258/239758918",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 8.740000000000002
+        },
+        {
+          "id": "671048335/203392771",
+          "cliente": "Picanha da Praia VJ",
+          "afiliacoes": "671048335/203392771",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 3.35
+        },
+        {
+          "id": "557875207/105038437",
+          "cliente": "BRASEIRO E BOI",
+          "afiliacoes": "557875207/105038437",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 1.67
+        },
+        {
+          "id": "861007897/753926673/186550952",
+          "cliente": "REI CAR UNAMAR",
+          "afiliacoes": "861007897/753926673/186550952",
+          "segmento": "Comércio de Veículos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.41
+        },
+        {
+          "id": "188618403/250371613",
+          "cliente": "PICANHA DA PRAIA M.M",
+          "afiliacoes": "188618403/250371613",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.1
+        },
+        {
+          "id": "188654389/540439735",
+          "cliente": "DEPOSITO DO JEAN",
+          "afiliacoes": "188654389/540439735",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.06
+        },
+        {
+          "id": "686935392/113504163/284334720",
+          "cliente": "OFICINA PONTO CERTO",
+          "afiliacoes": "686935392/113504163/284334720",
+          "segmento": "Autopeças e Serviços Automotivos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        },
+        {
+          "id": "266620293/532612263",
+          "cliente": "FABRICA DOS SACOS",
+          "afiliacoes": "266620293/532612263",
+          "segmento": "-",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        },
+        {
+          "id": "135061134/209178389/190507551",
+          "cliente": "AUTO CENTER BBS",
+          "afiliacoes": "135061134/209178389/190507551",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        },
+        {
+          "id": "711100422/177393907/149209671",
+          "cliente": "PAPELE RIO DAS OSTRAS",
+          "afiliacoes": "711100422/177393907/149209671",
+          "segmento": "Livrarias, Papelarias, Gráficas e Bancas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": -6.79
+        },
+        {
+          "id": "325116615/132644352/185632520",
+          "cliente": "EL SHADAY SUPERMERCADO",
+          "afiliacoes": "325116615/132644352/185632520",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": -100.43
+        }
+      ],
+      "hunter_total": 36,
+      "receita_hunter": 5621.660000000001,
+      "churn": [
+        {
+          "id": "735242410/116917139/130359191",
+          "cliente": "Praia Bike Casimiro",
+          "rota": "Marileia",
+          "afiliacoes": "735242410/116917139/130359191",
+          "receita": 8804.25,
+          "esp_credenciou": "Rio das Ostras"
+        },
+        {
+          "id": "188618403/250371613",
+          "cliente": "PICANHA DA PRAIA M.M",
+          "rota": "Costa Azul",
+          "afiliacoes": "188618403/250371613",
+          "receita": 581.78,
+          "esp_credenciou": "Rio das Ostras"
+        },
+        {
+          "id": "169930088/127392804",
+          "cliente": "GGN MERCEARIA",
+          "rota": "Casimiro",
+          "afiliacoes": "169930088/127392804",
+          "receita": 495.01,
+          "esp_credenciou": "Rio das Ostras"
+        },
+        {
+          "id": "271824686/138850046",
+          "cliente": "Mane",
+          "rota": "Marileia",
+          "afiliacoes": "271824686/138850046",
+          "receita": 376.17,
+          "esp_credenciou": "Rio das Ostras"
+        },
+        {
+          "id": "212640816/199642196",
+          "cliente": "casarao do acai",
+          "rota": "Marileia",
+          "afiliacoes": "212640816/199642196",
+          "receita": 308.23,
+          "esp_credenciou": "Saquarema"
+        },
+        {
+          "id": "130447431/121649692/511875354",
+          "cliente": "SUPERMERCADO ADONAI 3",
+          "rota": "Unamar Barra",
+          "afiliacoes": "130447431/121649692/511875354",
+          "receita": 205.87,
+          "esp_credenciou": "Rio das Ostras"
+        },
+        {
+          "id": "749772773/204771213",
+          "cliente": "ZIBO RESTAURANTEali",
+          "rota": "Marileia",
+          "afiliacoes": "749772773/204771213",
+          "receita": 172.34,
+          "esp_credenciou": "Rio das Ostras"
+        },
+        {
+          "id": "109075881/497063362",
+          "cliente": "DM STORE",
+          "rota": "Costa Azul",
+          "afiliacoes": "109075881/497063362",
+          "receita": 142.04,
+          "esp_credenciou": "Rio das Ostras"
+        },
+        {
+          "id": "266620293/532612263",
+          "cliente": "FABRICA DOS SACOS",
+          "rota": "Centro Barra",
+          "afiliacoes": "266620293/532612263",
+          "receita": 133.06,
+          "esp_credenciou": "Rio das Ostras"
+        },
+        {
+          "id": "686935392/113504163/284334720",
+          "cliente": "OFICINA PONTO CERTO",
+          "rota": "Unamar Barra",
+          "afiliacoes": "686935392/113504163/284334720",
+          "receita": 63.9,
+          "esp_credenciou": "Rio das Ostras"
+        }
+      ],
+      "churn_total": 10,
+      "receita_churn": 11282.65
+    },
+    {
+      "email": "layla.souza@stone.com.br",
+      "nome": "Layla Souza",
+      "polo": "Polo Macaé",
+      "iniciais": "LS",
+      "novos_maio": [
+        {
+          "data": "04/05/2026",
+          "cliente": "OH BAZAR",
+          "tpv": 100000.0
+        }
+      ],
+      "novos_maio_total": 1,
+      "tpv_maio": 100000.0,
+      "ativos_m0": [
+        {
+          "data_cred": "13/04/2026",
+          "data_ativ": "05/05/2026",
+          "cliente": "NOVA OPCAO DISTRIBUIDORA",
+          "tpv": 100000.0,
+          "dias_ativ": 22
+        },
+        {
+          "data_cred": "04/05/2026",
+          "data_ativ": "08/05/2026",
+          "cliente": "OH BAZAR",
+          "tpv": 100000.0,
+          "dias_ativ": 4
+        }
+      ],
+      "ativos_m0_total": 2,
+      "tpv_ativos_m0": 200000.0,
+      "ativos_m1": [
+        {
+          "data_ativ": "11/04/2026",
+          "cliente": "JVL COMERCIO E IMPORTACAO",
+          "tpv_precif": 30000.0,
+          "tpv_m0": 5395.67,
+          "tpv_proj": 12866.597692307692
+        },
+        {
+          "data_ativ": "11/04/2026",
+          "cliente": "PIZZARIA ELITE",
+          "tpv_precif": 30000.0,
+          "tpv_m0": 15486.89,
+          "tpv_proj": 36930.27615384615
+        },
+        {
+          "data_ativ": "14/04/2026",
+          "cliente": "BELLAS DECORACOES LAGOMAR",
+          "tpv_precif": 30000.0,
+          "tpv_m0": 0.0,
+          "tpv_proj": 0.0
+        },
+        {
+          "data_ativ": "14/04/2026",
+          "cliente": "BELLAS DECORACOES AROEIRA",
+          "tpv_precif": 10000.0,
+          "tpv_m0": 3485.91,
+          "tpv_proj": 8312.554615384615
+        },
+        {
+          "data_ativ": "14/04/2026",
+          "cliente": "BELLAS DECORACOES AEROPORTO",
+          "tpv_precif": 30000.0,
+          "tpv_m0": 2533.75,
+          "tpv_proj": 6042.0192307692305
+        },
+        {
+          "data_ativ": "24/04/2026",
+          "cliente": "MilkyMoo",
+          "tpv_precif": 30000.0,
+          "tpv_m0": 16962.4,
+          "tpv_proj": 40448.8
+        },
+        {
+          "data_ativ": "25/04/2026",
+          "cliente": "Gaze Tecidos",
+          "tpv_precif": 100000.0,
+          "tpv_m0": 83822.19,
+          "tpv_proj": 199883.68384615384
+        },
+        {
+          "data_ativ": "29/04/2026",
+          "cliente": "NOVA OPCAO TEMPER",
+          "tpv_precif": 50000.0,
+          "tpv_m0": 79883.17,
+          "tpv_proj": 190490.63615384614
+        }
+      ],
+      "ativos_m1_total": 8,
+      "tpv_m0_real_m1": 207569.98,
+      "tpv_m0_proj_m1": 494974.56769230764,
+      "tpv_precif_m1": 310000.0,
+      "estoque": [
+        {
+          "id": "189940735",
+          "data": "31/03/2026",
+          "cliente": "BRAGA PADARIA CONFEITARIA E LANCHONETE",
+          "dias": 43,
+          "tpv": 50000.0
+        },
+        {
+          "id": "175669520/523151927",
+          "data": "17/04/2026",
+          "cliente": "MACAHE BURGUER",
+          "dias": 26,
+          "tpv": 50000.0
+        }
+      ],
+      "estoque_total": 2,
+      "tpv_estoque": 100000.0,
+      "hunter": [
+        {
+          "id": "434338731/180674679/279150573",
+          "cliente": "REDE NOVO DE COMUNICACAO",
+          "afiliacoes": "434338731/180674679/279150573",
+          "segmento": "Serviços Corporativos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 1563.6599999999999
+        },
+        {
+          "id": "203526810/467038938/140080970",
+          "cliente": "ZIBO RESTAURANTE",
+          "afiliacoes": "203526810/467038938/140080970",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 521.1300000000001
+        },
+        {
+          "id": "176723342/204335661",
+          "cliente": "NOVA OPCAO DISTRIBUIDORA",
+          "afiliacoes": "176723342/204335661",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 346.82
+        },
+        {
+          "id": "926788365/912098145/159103866",
+          "cliente": "NOVA OPCAO TEMPER",
+          "afiliacoes": "926788365/912098145/159103866",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 249.58999999999997
+        },
+        {
+          "id": "595730194/129706689",
+          "cliente": "LANCHONETE ALTITUDE AROEIRA",
+          "afiliacoes": "595730194/129706689",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 235.44
+        },
+        {
+          "id": "206527282/208783292/180063538",
+          "cliente": "PIZZARIA ELITE",
+          "afiliacoes": "206527282/208783292/180063538",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 171.4
+        },
+        {
+          "id": "200341439/117268920",
+          "cliente": "MC VIDROS",
+          "afiliacoes": "200341439/117268920",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 52.230000000000004
+        },
+        {
+          "id": "111908483/348625110/162939157/210528769",
+          "cliente": "OH BAZAR",
+          "afiliacoes": "111908483/348625110/162939157/210528769",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 50.849999999999994
+        },
+        {
+          "id": "309908204/183006436",
+          "cliente": "MilkyMoo",
+          "afiliacoes": "309908204/183006436",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 40.17
+        },
+        {
+          "id": "496923746/557754064/209655619",
+          "cliente": "JVL COMERCIO E IMPORTACAO",
+          "afiliacoes": "496923746/557754064/209655619",
+          "segmento": "Outros Comércios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 9.55
+        },
+        {
+          "id": "881053694/208121496",
+          "cliente": "BELLAS DECORACOES AROEIRA",
+          "afiliacoes": "881053694/208121496",
+          "segmento": "Outros Comércios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 2.92
+        },
+        {
+          "id": "736044723/208052224",
+          "cliente": "BELLAS DECORACOES AEROPORTO",
+          "afiliacoes": "736044723/208052224",
+          "segmento": "Outros Comércios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.379999999999999
+        },
+        {
+          "id": "809637289/516951262",
+          "cliente": "BELLAS DECORACOES LAGOMAR",
+          "afiliacoes": "809637289/516951262",
+          "segmento": "Outros Comércios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        },
+        {
+          "id": "200284165/104034479",
+          "cliente": "Gaze Tecidos",
+          "afiliacoes": "200284165/104034479",
+          "segmento": "Casa e Decoração",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": -188.96
+        }
+      ],
+      "hunter_total": 14,
+      "receita_hunter": 3055.18,
+      "churn": [
+        {
+          "id": "130799717/214043575",
+          "cliente": "BEER VT",
+          "rota": "Aeroporto",
+          "afiliacoes": "130799717/214043575",
+          "receita": 1171.14,
+          "esp_credenciou": "Macaé"
+        },
+        {
+          "id": "168542570/910794446/999098256/125860183",
+          "cliente": "POSTO MOREIRA CABRAL 3",
+          "rota": "Aroeira",
+          "afiliacoes": "168542570/910794446/999098256/125860183",
+          "receita": 1168.57,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "175404102/116892036/469715323/120773685",
+          "cliente": "POSTO MOREIRA CABRAL 1",
+          "rota": "Imbetiba",
+          "afiliacoes": "175404102/116892036/469715323/120773685",
+          "receita": 1024.89,
+          "esp_credenciou": "Rio das Ostras"
+        },
+        {
+          "id": "809637289/516951262",
+          "cliente": "BELLAS DECORACOES LAGOMAR",
+          "rota": "Lagomar",
+          "afiliacoes": "809637289/516951262",
+          "receita": 0.0,
+          "esp_credenciou": "Macaé"
+        }
+      ],
+      "churn_total": 4,
+      "receita_churn": 3364.6000000000004
+    },
+    {
+      "email": "viviane.pontes@stone.com.br",
+      "nome": "Viviane Pontes",
+      "polo": "Polo Macaé",
+      "iniciais": "VP",
+      "novos_maio": [],
+      "novos_maio_total": 0,
+      "tpv_maio": 0,
+      "ativos_m0": [],
+      "ativos_m0_total": 0,
+      "tpv_ativos_m0": 0,
+      "ativos_m1": [],
+      "ativos_m1_total": 0,
+      "tpv_m0_real_m1": 0,
+      "tpv_m0_proj_m1": 0,
+      "tpv_precif_m1": 0,
+      "estoque": [],
+      "estoque_total": 0,
+      "tpv_estoque": 0,
+      "hunter": [],
+      "hunter_total": 0,
+      "receita_hunter": 0,
+      "churn": [
+        {
+          "id": "130799717/214043575",
+          "cliente": "BEER VT",
+          "rota": "Aeroporto",
+          "afiliacoes": "130799717/214043575",
+          "receita": 1171.14,
+          "esp_credenciou": "Macaé"
+        },
+        {
+          "id": "168542570/910794446/999098256/125860183",
+          "cliente": "POSTO MOREIRA CABRAL 3",
+          "rota": "Aroeira",
+          "afiliacoes": "168542570/910794446/999098256/125860183",
+          "receita": 1168.57,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "175404102/116892036/469715323/120773685",
+          "cliente": "POSTO MOREIRA CABRAL 1",
+          "rota": "Imbetiba",
+          "afiliacoes": "175404102/116892036/469715323/120773685",
+          "receita": 1024.89,
+          "esp_credenciou": "Rio das Ostras"
+        },
+        {
+          "id": "809637289/516951262",
+          "cliente": "BELLAS DECORACOES LAGOMAR",
+          "rota": "Lagomar",
+          "afiliacoes": "809637289/516951262",
+          "receita": 0.0,
+          "esp_credenciou": "Macaé"
+        }
+      ],
+      "churn_total": 4,
+      "receita_churn": 3364.6000000000004
+    },
+    {
+      "email": "alexsander.petrovit@stone.com.br",
+      "nome": "Alexsander Petrovit",
+      "polo": "Polo Maricá",
+      "iniciais": "AP",
+      "novos_maio": [],
+      "novos_maio_total": 0,
+      "tpv_maio": 0,
+      "ativos_m0": [],
+      "ativos_m0_total": 0,
+      "tpv_ativos_m0": 0,
+      "ativos_m1": [],
+      "ativos_m1_total": 0,
+      "tpv_m0_real_m1": 0,
+      "tpv_m0_proj_m1": 0,
+      "tpv_precif_m1": 0,
+      "estoque": [],
+      "estoque_total": 0,
+      "tpv_estoque": 0,
+      "hunter": [],
+      "hunter_total": 0,
+      "receita_hunter": 0,
+      "churn": [
+        {
+          "id": "105870846/114595956/118742981",
+          "cliente": "Fort Das Racoes I",
+          "rota": "ITAIPUACU",
+          "afiliacoes": "105870846/114595956/118742981",
+          "receita": 2618.03,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "546034720/159022687",
+          "cliente": "Mercado",
+          "rota": "JACONE",
+          "afiliacoes": "546034720/159022687",
+          "receita": 2310.69,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "918414256/171642150",
+          "cliente": "Daiane supermercado",
+          "rota": "JACONE",
+          "afiliacoes": "918414256/171642150",
+          "receita": 2201.03,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "195308220/431184239/143712518",
+          "cliente": "BAHIA PIZZARIA",
+          "rota": "ITAIPUACU",
+          "afiliacoes": "195308220/431184239/143712518",
+          "receita": 1983.94,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "112975312/103795423",
+          "cliente": "Auto Posto Margui ll",
+          "rota": "JACONE",
+          "afiliacoes": "112975312/103795423",
+          "receita": 1721.43,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "162651355/118836044",
+          "cliente": "Fort das racoes ll",
+          "rota": "JACONE",
+          "afiliacoes": "162651355/118836044",
+          "receita": 1164.28,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "113116930",
+          "cliente": "Padaria",
+          "rota": "ITAIPUACU",
+          "afiliacoes": "113116930",
+          "receita": 825.6,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "656478202",
+          "cliente": "Forte das Racoes 3",
+          "rota": "ITAIPUACU",
+          "afiliacoes": "656478202",
+          "receita": 764.5,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "212323836/749547498/177030048",
+          "cliente": "DECKMAR EVENTOS",
+          "rota": "JACONE",
+          "afiliacoes": "212323836/749547498/177030048",
+          "receita": 590.34,
+          "esp_credenciou": "Cabo Frio"
+        },
+        {
+          "id": "123731589/211129632",
+          "cliente": "JM Bebidas",
+          "rota": "ARACATIBA",
+          "afiliacoes": "123731589/211129632",
+          "receita": 256.37,
+          "esp_credenciou": "Cabo Frio"
+        }
+      ],
+      "churn_total": 10,
+      "receita_churn": 14436.210000000001
+    },
+    {
+      "email": "thais.machado@stone.com.br",
+      "nome": "Thaís Machado",
+      "polo": "Polo Rio Bonito",
+      "iniciais": "TM",
+      "novos_maio": [],
+      "novos_maio_total": 0,
+      "tpv_maio": 0,
+      "ativos_m0": [],
+      "ativos_m0_total": 0,
+      "tpv_ativos_m0": 0,
+      "ativos_m1": [],
+      "ativos_m1_total": 0,
+      "tpv_m0_real_m1": 0,
+      "tpv_m0_proj_m1": 0,
+      "tpv_precif_m1": 0,
+      "estoque": [],
+      "estoque_total": 0,
+      "tpv_estoque": 0,
+      "hunter": [
+        {
+          "id": "105911389/147925035",
+          "cliente": "ITA HORTIFRUT",
+          "afiliacoes": "105911389/147925035",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 204.27000000000004
+        },
+        {
+          "id": "214600128/101737976",
+          "cliente": "Constrular",
+          "afiliacoes": "214600128/101737976",
+          "segmento": "Consertos, Obras e Manutenção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 155.26
+        },
+        {
+          "id": "207098709/175647751",
+          "cliente": "Hortifruti Itaborai",
+          "afiliacoes": "207098709/175647751",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 56.99000000000001
+        },
+        {
+          "id": "169564670/586644497",
+          "cliente": "PJ BAR E DELIVERY",
+          "afiliacoes": "169564670/586644497",
+          "segmento": "Supermercados",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 38.66
+        },
+        {
+          "id": "137804274/199406187",
+          "cliente": "SUPERMERCADO ALIANCA",
+          "afiliacoes": "137804274/199406187",
+          "segmento": "Serviços Corporativos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.09
+        }
+      ],
+      "hunter_total": 5,
+      "receita_hunter": 455.27000000000004,
+      "churn": [],
+      "churn_total": 0,
+      "receita_churn": 0
+    },
+    {
+      "email": "eduardo.bittencourt@stone.com.br",
+      "nome": "Eduardo Bittencourt",
+      "polo": "Polo Nova Friburgo",
+      "iniciais": "EB",
+      "novos_maio": [
+        {
+          "data": "08/05/2026",
+          "cliente": "MIMAR LINGERIE",
+          "tpv": 20000.0
+        },
+        {
+          "data": "13/05/2026",
+          "cliente": "VENDA NOVA DA SERRA AGRICOLA LTDA",
+          "tpv": 50000.0
+        },
+        {
+          "data": "13/05/2026",
+          "cliente": "Serrana Agricola",
+          "tpv": 50000.0
+        },
+        {
+          "data": "13/05/2026",
+          "cliente": "Resende agricola",
+          "tpv": 20000.0
+        }
+      ],
+      "novos_maio_total": 4,
+      "tpv_maio": 140000.0,
+      "ativos_m0": [
+        {
+          "data_cred": "13/04/2026",
+          "data_ativ": "02/05/2026",
+          "cliente": "CDI IV",
+          "tpv": 30000.0,
+          "dias_ativ": 19
+        },
+        {
+          "data_cred": "08/05/2026",
+          "data_ativ": "12/05/2026",
+          "cliente": "MIMAR LINGERIE",
+          "tpv": 20000.0,
+          "dias_ativ": 4
+        }
+      ],
+      "ativos_m0_total": 2,
+      "tpv_ativos_m0": 50000.0,
+      "ativos_m1": [
+        {
+          "data_ativ": "07/04/2026",
+          "cliente": "DELIRIUS LINGERIE",
+          "tpv_precif": 50000.0,
+          "tpv_m0": 13470.48,
+          "tpv_proj": 32121.913846153846
+        },
+        {
+          "data_ativ": "08/04/2026",
+          "cliente": "Himalaia",
+          "tpv_precif": 100000.0,
+          "tpv_m0": 61388.71,
+          "tpv_proj": 146388.4623076923
+        },
+        {
+          "data_ativ": "17/04/2026",
+          "cliente": "Itamar jr",
+          "tpv_precif": 50000.0,
+          "tpv_m0": 18434.0,
+          "tpv_proj": 43958.0
+        },
+        {
+          "data_ativ": "22/04/2026",
+          "cliente": "CELTA MARKET",
+          "tpv_precif": 150000.0,
+          "tpv_m0": 7629.72,
+          "tpv_proj": 18193.94769230769
+        },
+        {
+          "data_ativ": "28/04/2026",
+          "cliente": "PARK LIFE",
+          "tpv_precif": 30000.0,
+          "tpv_m0": 20540.1,
+          "tpv_proj": 48980.23846153846
+        },
+        {
+          "data_ativ": "30/04/2026",
+          "cliente": "MI Comercio",
+          "tpv_precif": 50000.0,
+          "tpv_m0": 4769.11,
+          "tpv_proj": 11372.493076923076
+        }
+      ],
+      "ativos_m1_total": 6,
+      "tpv_m0_real_m1": 126232.12,
+      "tpv_m0_proj_m1": 301015.0553846154,
+      "tpv_precif_m1": 430000.0,
+      "estoque": [
+        {
+          "id": "212506936",
+          "data": "13/02/2026",
+          "cliente": "Padaria Celta",
+          "dias": 89,
+          "tpv": 300000.0
+        },
+        {
+          "id": "207413904",
+          "data": "04/03/2026",
+          "cliente": "FRIALI ALIMENTOS",
+          "dias": 70,
+          "tpv": 250000.0
+        },
+        {
+          "id": "820921129/856724701",
+          "data": "15/04/2026",
+          "cliente": "BELEZA NATURAL",
+          "dias": 28,
+          "tpv": 30000.0
+        },
+        {
+          "id": "183566803/109208000/552928615",
+          "data": "22/04/2026",
+          "cliente": "Porto do sabor",
+          "dias": 21,
+          "tpv": 30000.0
+        },
+        {
+          "id": "893662924/840227036",
+          "data": "28/04/2026",
+          "cliente": "CDI Macuco",
+          "dias": 15,
+          "tpv": 15000.0
+        },
+        {
+          "id": "192453404/153786496",
+          "data": "13/05/2026",
+          "cliente": "VENDA NOVA DA SERRA AGRICOLA LTDA",
+          "dias": 0,
+          "tpv": 50000.0
+        },
+        {
+          "id": "164802154/149097704/101661505",
+          "data": "13/05/2026",
+          "cliente": "Serrana Agricola",
+          "dias": 0,
+          "tpv": 50000.0
+        },
+        {
+          "id": "843201137/185959437/741408148",
+          "data": "13/05/2026",
+          "cliente": "Resende agricola",
+          "dias": 0,
+          "tpv": 20000.0
+        }
+      ],
+      "estoque_total": 8,
+      "tpv_estoque": 745000.0,
+      "hunter": [
+        {
+          "id": "134745189",
+          "cliente": "Nexo",
+          "afiliacoes": "134745189",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 525.66
+        },
+        {
+          "id": "126916362/206432783",
+          "cliente": "Posto Guarani",
+          "afiliacoes": "126916362/206432783",
+          "segmento": "Postos de Gasolina e Similares",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 246.84
+        },
+        {
+          "id": "129500470/655721824",
+          "cliente": "Himalaia",
+          "afiliacoes": "129500470/655721824",
+          "segmento": "Supermercados",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 223.06
+        },
+        {
+          "id": "405521104/116742265",
+          "cliente": "Nx Atacado 1",
+          "afiliacoes": "405521104/116742265",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 173.76
+        },
+        {
+          "id": "733467914/120351302",
+          "cliente": "THAILU LINGERIE",
+          "afiliacoes": "733467914/120351302",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 165.34
+        },
+        {
+          "id": "883882875/151229399",
+          "cliente": "PARK LIFE",
+          "afiliacoes": "883882875/151229399",
+          "segmento": "Autopeças e Serviços Automotivos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 144.23000000000002
+        },
+        {
+          "id": "178335234/183651252",
+          "cliente": "Riviera lll",
+          "afiliacoes": "178335234/183651252",
+          "segmento": "Lojas de Departamento",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 141.23
+        },
+        {
+          "id": "712571263/124491527/210347122/964947103",
+          "cliente": "Celeiro",
+          "afiliacoes": "712571263/124491527/210347122/964947103",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 94.54999999999998
+        },
+        {
+          "id": "172587095/453926971",
+          "cliente": "O NOSSO RESTAURANTE",
+          "afiliacoes": "172587095/453926971",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 77.71000000000001
+        },
+        {
+          "id": "734331734/202146108",
+          "cliente": "CDI",
+          "afiliacoes": "734331734/202146108",
+          "segmento": "Comércio de Veículos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 76.64
+        },
+        {
+          "id": "163946510/190905093",
+          "cliente": "Estacionamento estilo livre",
+          "afiliacoes": "163946510/190905093",
+          "segmento": "Imóveis e Hospedagem",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 73.44
+        },
+        {
+          "id": "169681957/130632702",
+          "cliente": "Casa Friburgo",
+          "afiliacoes": "169681957/130632702",
+          "segmento": "Logística e Mobilidade",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 72.07999999999998
+        },
+        {
+          "id": "685869240/161135153/104074038",
+          "cliente": "DELIRIUS LINGERIE",
+          "afiliacoes": "685869240/161135153/104074038",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 70.59999999999997
+        },
+        {
+          "id": "212908963/485643046",
+          "cliente": "Itamar jr",
+          "afiliacoes": "212908963/485643046",
+          "segmento": "Casa e Decoração",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 69.0
+        },
+        {
+          "id": "170586197/476693255/131755449",
+          "cliente": "DOMINIO INTIMO",
+          "afiliacoes": "170586197/476693255/131755449",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 47.739999999999995
+        },
+        {
+          "id": "473621926/187311413",
+          "cliente": "COMAGRI",
+          "afiliacoes": "473621926/187311413",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 47.21
+        },
+        {
+          "id": "126415200/142359660",
+          "cliente": "CDI ll",
+          "afiliacoes": "126415200/142359660",
+          "segmento": "Comércio de Veículos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 45.769999999999996
+        },
+        {
+          "id": "114775419/200717028",
+          "cliente": "CDI IV",
+          "afiliacoes": "114775419/200717028",
+          "segmento": "Comércio de Veículos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 43.29
+        },
+        {
+          "id": "119618550/169145192",
+          "cliente": "GIRAFFAS",
+          "afiliacoes": "119618550/169145192",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 41.230000000000004
+        },
+        {
+          "id": "492507642/512504816",
+          "cliente": "MANIA DE PAO",
+          "afiliacoes": "492507642/512504816",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 40.05
+        },
+        {
+          "id": "649911155",
+          "cliente": "Auqmia",
+          "afiliacoes": "649911155",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 35.48
+        },
+        {
+          "id": "204637185/162139518/201345097",
+          "cliente": "MI Comercio",
+          "afiliacoes": "204637185/162139518/201345097",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 8.93
+        },
+        {
+          "id": "209554680/154405471/142566253",
+          "cliente": "Sol e neve BJ ll",
+          "afiliacoes": "209554680/154405471/142566253",
+          "segmento": "Consertos, Obras e Manutenção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.18
+        },
+        {
+          "id": "281131243/902406677/569502766/345657677",
+          "cliente": "HELIOS HOTEL",
+          "afiliacoes": "281131243/902406677/569502766/345657677",
+          "segmento": "Imóveis e Hospedagem",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        },
+        {
+          "id": "834454808/165090700/135404885",
+          "cliente": "NX atacado ll",
+          "afiliacoes": "834454808/165090700/135404885",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        },
+        {
+          "id": "121199880/152060631",
+          "cliente": "MIMAR LINGERIE",
+          "afiliacoes": "121199880/152060631",
+          "segmento": "-",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": -0.32
+        },
+        {
+          "id": "188173739/208080845",
+          "cliente": "CELTA MARKET",
+          "afiliacoes": "188173739/208080845",
+          "segmento": "Supermercados",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": -27.14
+        },
+        {
+          "id": "277310989/178809812",
+          "cliente": "CELTA PADARIA E LANCHONETE",
+          "afiliacoes": "277310989/178809812",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": -973.25
+        }
+      ],
+      "hunter_total": 28,
+      "receita_hunter": 1463.31,
+      "churn": [
+        {
+          "id": "473621926/187311413",
+          "cliente": "COMAGRI",
+          "rota": "Mury",
+          "afiliacoes": "473621926/187311413",
+          "receita": 833.7,
+          "esp_credenciou": "Nova Friburgo"
+        },
+        {
+          "id": "157145910/122648145",
+          "cliente": "Estacao Grill",
+          "rota": "Cachoeiras",
+          "afiliacoes": "157145910/122648145",
+          "receita": 549.07,
+          "esp_credenciou": "Nova Friburgo"
+        },
+        {
+          "id": "181577737/137823112",
+          "cliente": "MLS Servicos",
+          "rota": "Olaria",
+          "afiliacoes": "181577737/137823112",
+          "receita": 307.63,
+          "esp_credenciou": "Nova Friburgo"
+        },
+        {
+          "id": "209554680/154405471/142566253",
+          "cliente": "Sol e neve BJ ll",
+          "rota": "Conselheiro",
+          "afiliacoes": "209554680/154405471/142566253",
+          "receita": 141.81,
+          "esp_credenciou": "Nova Friburgo"
+        }
+      ],
+      "churn_total": 4,
+      "receita_churn": 1832.21
+    },
+    {
+      "email": "thaiane.muniz@stone.com.br",
+      "nome": "Thaiane Muniz",
+      "polo": "Polo Petrópolis",
+      "iniciais": "TM",
+      "novos_maio": [],
+      "novos_maio_total": 0,
+      "tpv_maio": 0,
+      "ativos_m0": [],
+      "ativos_m0_total": 0,
+      "tpv_ativos_m0": 0,
+      "ativos_m1": [],
+      "ativos_m1_total": 0,
+      "tpv_m0_real_m1": 0,
+      "tpv_m0_proj_m1": 0,
+      "tpv_precif_m1": 0,
+      "estoque": [],
+      "estoque_total": 0,
+      "tpv_estoque": 0,
+      "hunter": [],
+      "hunter_total": 0,
+      "receita_hunter": 0,
+      "churn": [
+        {
+          "id": "637177687/134476884/172140623",
+          "cliente": "Nami Bijuteria",
+          "rota": "Centro",
+          "afiliacoes": "637177687/134476884/172140623",
+          "receita": 757.25,
+          "esp_credenciou": "Petrópolis"
+        },
+        {
+          "id": "123845379/112340357",
+          "cliente": "Emb Imperio Filial 1",
+          "rota": "Bauerfest",
+          "afiliacoes": "123845379/112340357",
+          "receita": 319.37,
+          "esp_credenciou": "Petrópolis"
+        }
+      ],
+      "churn_total": 2,
+      "receita_churn": 1076.62
+    },
+    {
+      "email": "patrick.vieira@stone.com.br",
+      "nome": "Patrick Vieira",
+      "polo": "Polo Petrópolis",
+      "iniciais": "PV",
+      "novos_maio": [
+        {
+          "data": "11/05/2026",
+          "cliente": "SHOP 25.",
+          "tpv": 50000.0
+        }
+      ],
+      "novos_maio_total": 1,
+      "tpv_maio": 50000.0,
+      "ativos_m0": [],
+      "ativos_m0_total": 0,
+      "tpv_ativos_m0": 0,
+      "ativos_m1": [
+        {
+          "data_ativ": "10/04/2026",
+          "cliente": "Thebana",
+          "tpv_precif": 50000.0,
+          "tpv_m0": 34592.42,
+          "tpv_proj": 82489.61692307692
+        },
+        {
+          "data_ativ": "18/04/2026",
+          "cliente": "IL Multimarcas",
+          "tpv_precif": 100000.0,
+          "tpv_m0": 60533.7,
+          "tpv_proj": 144349.5923076923
+        },
+        {
+          "data_ativ": "29/04/2026",
+          "cliente": "Precinho",
+          "tpv_precif": 200000.0,
+          "tpv_m0": 97851.55,
+          "tpv_proj": 233338.31153846154
+        }
+      ],
+      "ativos_m1_total": 3,
+      "tpv_m0_real_m1": 192977.66999999998,
+      "tpv_m0_proj_m1": 460177.5207692308,
+      "tpv_precif_m1": 350000.0,
+      "estoque": [
+        {
+          "id": "695024012",
+          "data": "11/05/2026",
+          "cliente": "SHOP 25.",
+          "dias": 2,
+          "tpv": 50000.0
+        }
+      ],
+      "estoque_total": 1,
+      "tpv_estoque": 50000.0,
+      "hunter": [
+        {
+          "id": "115860245/170664016",
+          "cliente": "IL Multimarcas",
+          "afiliacoes": "115860245/170664016",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 1165.5499999999997
+        },
+        {
+          "id": "760178625/864143431",
+          "cliente": "Imperium Luxo Sneakers",
+          "afiliacoes": "760178625/864143431",
+          "segmento": "-",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 786.4
+        },
+        {
+          "id": "821779725/164695680",
+          "cliente": "Fox Paulistinha Racoes",
+          "afiliacoes": "821779725/164695680",
+          "segmento": "Supermercados",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 378.31999999999994
+        },
+        {
+          "id": "377488923/203218031",
+          "cliente": "Katz",
+          "afiliacoes": "377488923/203218031",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 350.72
+        },
+        {
+          "id": "123712324/949388233/211838960",
+          "cliente": "GENEROUS",
+          "afiliacoes": "123712324/949388233/211838960",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 277.05
+        },
+        {
+          "id": "170099875/208250380/789530790",
+          "cliente": "Cantina Giulietta",
+          "afiliacoes": "170099875/208250380/789530790",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 262.58000000000015
+        },
+        {
+          "id": "102406953",
+          "cliente": "Rei do Queijo",
+          "afiliacoes": "102406953",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 190.74
+        },
+        {
+          "id": "518361771/189185793",
+          "cliente": "FARMELHOR BRAVA",
+          "afiliacoes": "518361771/189185793",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 175.27999999999997
+        },
+        {
+          "id": "144611235/414949116",
+          "cliente": "Thebana",
+          "afiliacoes": "144611235/414949116",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 164.48999999999998
+        },
+        {
+          "id": "179267697",
+          "cliente": "Precinho",
+          "afiliacoes": "179267697",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 148.14999999999998
+        },
+        {
+          "id": "162366587",
+          "cliente": "FARMELHOR TURIBIO",
+          "afiliacoes": "162366587",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 140.35
+        },
+        {
+          "id": "132243519/675031826",
+          "cliente": "OCTANO STEAK HOUSE",
+          "afiliacoes": "132243519/675031826",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 135.74000000000012
+        },
+        {
+          "id": "379775783/617512496/698662715",
+          "cliente": "Borda Dourada",
+          "afiliacoes": "379775783/617512496/698662715",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 124.37
+        },
+        {
+          "id": "696955687/139151242",
+          "cliente": "Rei do Queijo T",
+          "afiliacoes": "696955687/139151242",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 84.54
+        },
+        {
+          "id": "497609338/444104424",
+          "cliente": "SO SIMPATIA",
+          "afiliacoes": "497609338/444104424",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 68.55999999999999
+        },
+        {
+          "id": "125535795/243608416/466322237/201923557",
+          "cliente": "Caminhos de Itaipava",
+          "afiliacoes": "125535795/243608416/466322237/201923557",
+          "segmento": "-",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 44.33999999999999
+        },
+        {
+          "id": "158401096/167205636/140779717",
+          "cliente": "Racoes Paulistinha",
+          "afiliacoes": "158401096/167205636/140779717",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 17.159999999999997
+        },
+        {
+          "id": "124453064/412951284",
+          "cliente": "Rei do Queijo",
+          "afiliacoes": "124453064/412951284",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        },
+        {
+          "id": "180453105/120529853/160556904",
+          "cliente": "Farmacias Predileta CR",
+          "afiliacoes": "180453105/120529853/160556904",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": -15.67
+        },
+        {
+          "id": "323317323/670453718",
+          "cliente": "Drogaria Buzios Filial",
+          "afiliacoes": "323317323/670453718",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": -158.69
+        }
+      ],
+      "hunter_total": 20,
+      "receita_hunter": 4339.98,
+      "churn": [
+        {
+          "id": "637177687/134476884/172140623",
+          "cliente": "Nami Bijuteria",
+          "rota": "Centro",
+          "afiliacoes": "637177687/134476884/172140623",
+          "receita": 757.25,
+          "esp_credenciou": "Petrópolis"
+        },
+        {
+          "id": "123845379/112340357",
+          "cliente": "Emb Imperio Filial 1",
+          "rota": "Bauerfest",
+          "afiliacoes": "123845379/112340357",
+          "receita": 319.37,
+          "esp_credenciou": "Petrópolis"
+        }
+      ],
+      "churn_total": 2,
+      "receita_churn": 1076.62
+    },
+    {
+      "email": "julio.cesar@stone.com.br",
+      "nome": "Júlio César",
+      "polo": "Polo Teresópolis",
+      "iniciais": "JC",
+      "novos_maio": [
+        {
+          "data": "05/05/2026",
+          "cliente": "DECK CASUARINA",
+          "tpv": 50000.0
+        },
+        {
+          "data": "05/05/2026",
+          "cliente": "Olicios Pizzaria",
+          "tpv": 30000.0
+        }
+      ],
+      "novos_maio_total": 2,
+      "tpv_maio": 80000.0,
+      "ativos_m0": [
+        {
+          "data_cred": "05/05/2026",
+          "data_ativ": "06/05/2026",
+          "cliente": "Olicios Pizzaria",
+          "tpv": 30000.0,
+          "dias_ativ": 1
+        },
+        {
+          "data_cred": "29/04/2026",
+          "data_ativ": "06/05/2026",
+          "cliente": "Braseiro do Xopin",
+          "tpv": 100000.0,
+          "dias_ativ": 7
+        },
+        {
+          "data_cred": "05/05/2026",
+          "data_ativ": "07/05/2026",
+          "cliente": "DECK CASUARINA",
+          "tpv": 50000.0,
+          "dias_ativ": 2
+        }
+      ],
+      "ativos_m0_total": 3,
+      "tpv_ativos_m0": 180000.0,
+      "ativos_m1": [
+        {
+          "data_ativ": "06/04/2026",
+          "cliente": "Do Lar utilidades",
+          "tpv_precif": 50000.0,
+          "tpv_m0": 69949.8,
+          "tpv_proj": 166803.36923076923
+        },
+        {
+          "data_ativ": "07/04/2026",
+          "cliente": "QUALITRAT MADEIRAS LTDA",
+          "tpv_precif": 50000.0,
+          "tpv_m0": 2707.0,
+          "tpv_proj": 6455.153846153846
+        },
+        {
+          "data_ativ": "16/04/2026",
+          "cliente": "Padaria Princesa",
+          "tpv_precif": 100000.0,
+          "tpv_m0": 58507.34,
+          "tpv_proj": 139517.50307692308
+        },
+        {
+          "data_ativ": "22/04/2026",
+          "cliente": "TCH CABANAS",
+          "tpv_precif": 100000.0,
+          "tpv_m0": 8017.46,
+          "tpv_proj": 19118.55846153846
+        },
+        {
+          "data_ativ": "24/04/2026",
+          "cliente": "RECANTO NA BRASA.",
+          "tpv_precif": 100000.0,
+          "tpv_m0": 32978.47,
+          "tpv_proj": 78640.96692307692
+        }
+      ],
+      "ativos_m1_total": 5,
+      "tpv_m0_real_m1": 172160.07,
+      "tpv_m0_proj_m1": 410535.5515384615,
+      "tpv_precif_m1": 400000.0,
+      "estoque": [
+        {
+          "id": "114590631/528651714/632656191",
+          "data": "06/04/2026",
+          "cliente": "Outlet",
+          "dias": 37,
+          "tpv": 30000.0
+        }
+      ],
+      "estoque_total": 1,
+      "tpv_estoque": 30000.0,
+      "hunter": [
+        {
+          "id": "916729089/111747376/334843756",
+          "cliente": "Comercio de Utilidades e Racoes",
+          "afiliacoes": "916729089/111747376/334843756",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 1161.9700000000003
+        },
+        {
+          "id": "208430494/119894859/142733617",
+          "cliente": "Comercio das Utilidades e Racoes",
+          "afiliacoes": "208430494/119894859/142733617",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 706.4800000000002
+        },
+        {
+          "id": "358389245/179504707/163592973",
+          "cliente": "Comercio de Utilidades e Racoes",
+          "afiliacoes": "358389245/179504707/163592973",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 694.6699999999998
+        },
+        {
+          "id": "135449215/405115083/643863922",
+          "cliente": "Vira Lar Piabeta",
+          "afiliacoes": "135449215/405115083/643863922",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 687.3699999999999
+        },
+        {
+          "id": "164506049/122367246",
+          "cliente": "Braseiro do Xopin",
+          "afiliacoes": "164506049/122367246",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 438.4000000000001
+        },
+        {
+          "id": "786103413/463463374/173655785",
+          "cliente": "Pet Racoes",
+          "afiliacoes": "786103413/463463374/173655785",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 379.2
+        },
+        {
+          "id": "216252278/125031645",
+          "cliente": "Vira Lar praca",
+          "afiliacoes": "216252278/125031645",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 375.55
+        },
+        {
+          "id": "377135500/143284660/112860918",
+          "cliente": "Do Lar utilidades",
+          "afiliacoes": "377135500/143284660/112860918",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 343.9900000000001
+        },
+        {
+          "id": "194882039/112583049/323197929",
+          "cliente": "Duval Restaurante",
+          "afiliacoes": "194882039/112583049/323197929",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 305.76
+        },
+        {
+          "id": "212095763/695890631",
+          "cliente": "SUPERMERCADO VILA DO PIAO",
+          "afiliacoes": "212095763/695890631",
+          "segmento": "Supermercados",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 278.11999999999995
+        },
+        {
+          "id": "129814012/120648073",
+          "cliente": "MANIA Dagua",
+          "afiliacoes": "129814012/120648073",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 262.09000000000003
+        },
+        {
+          "id": "168140866/337890132/184100954",
+          "cliente": "Petro Pet Lar",
+          "afiliacoes": "168140866/337890132/184100954",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 204.94
+        },
+        {
+          "id": "172032086/145961755/103513689",
+          "cliente": "ULLISSES  DELIVERY",
+          "afiliacoes": "172032086/145961755/103513689",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 187.43999999999994
+        },
+        {
+          "id": "176977630/185809400",
+          "cliente": "TCH CABANAS",
+          "afiliacoes": "176977630/185809400",
+          "segmento": "Entretenimento e Turismo",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 182.98999999999995
+        },
+        {
+          "id": "197668060/571211783/199234089",
+          "cliente": "Sabor da montanha",
+          "afiliacoes": "197668060/571211783/199234089",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 157.3
+        },
+        {
+          "id": "230858433/129827654",
+          "cliente": "AMA ATELIE",
+          "afiliacoes": "230858433/129827654",
+          "segmento": "-",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 134.01000000000002
+        },
+        {
+          "id": "147587820/167926201",
+          "cliente": "RECANTO NA BRASA.",
+          "afiliacoes": "147587820/167926201",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 128.04000000000002
+        },
+        {
+          "id": "715635020/864587689/115396840",
+          "cliente": "Padaria Princesa",
+          "afiliacoes": "715635020/864587689/115396840",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 123.11000000000001
+        },
+        {
+          "id": "144475116/303623012/920484508",
+          "cliente": "DECK CASUARINA",
+          "afiliacoes": "144475116/303623012/920484508",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 110.09
+        },
+        {
+          "id": "333408188/114202131/969828278",
+          "cliente": "Padaria Mao na Massa",
+          "afiliacoes": "333408188/114202131/969828278",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 106.85
+        },
+        {
+          "id": "746423235/437468342/153530705",
+          "cliente": "Mercado Micael",
+          "afiliacoes": "746423235/437468342/153530705",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 93.7
+        },
+        {
+          "id": "178503747/162070654",
+          "cliente": "AMA ATELIE CABO FRIO",
+          "afiliacoes": "178503747/162070654",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 72.42
+        },
+        {
+          "id": "198350853/289059808",
+          "cliente": "SENOR BURRITO MEXICANO",
+          "afiliacoes": "198350853/289059808",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 60.84
+        },
+        {
+          "id": "604778380/167896596/624486044",
+          "cliente": "Vida e Saude Albuquerque",
+          "afiliacoes": "604778380/167896596/624486044",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 57.66
+        },
+        {
+          "id": "195480370/157482947/128718673",
+          "cliente": "Beira Rio",
+          "afiliacoes": "195480370/157482947/128718673",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 51.66
+        },
+        {
+          "id": "880577085/200432480/211146194",
+          "cliente": "Soma Drogarias",
+          "afiliacoes": "880577085/200432480/211146194",
+          "segmento": "Farmácias, Produtos de Saúde e Cosmética",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 47.94
+        },
+        {
+          "id": "161358515/410815115",
+          "cliente": "Centro medico Dedo de Deus",
+          "afiliacoes": "161358515/410815115",
+          "segmento": "Serviços de Saúde e Clínicas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 45.69
+        },
+        {
+          "id": "132531424/110612081",
+          "cliente": "O FORNES PIZZARIA",
+          "afiliacoes": "132531424/110612081",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 42.53000000000001
+        },
+        {
+          "id": "139970059/166068342",
+          "cliente": "Otica Coral",
+          "afiliacoes": "139970059/166068342",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 35.04
+        },
+        {
+          "id": "189094872/122148077/147466622",
+          "cliente": "Otica Teresopolis Filial",
+          "afiliacoes": "189094872/122148077/147466622",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 31.16
+        },
+        {
+          "id": "115396628/146724792/718265878",
+          "cliente": "Restaurante Parrilla Bombonera",
+          "afiliacoes": "115396628/146724792/718265878",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 28.27
+        },
+        {
+          "id": "157909316/805564101",
+          "cliente": "Duval Restaurante",
+          "afiliacoes": "157909316/805564101",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 25.120000000000005
+        },
+        {
+          "id": "179682149/753805930/162978793",
+          "cliente": "Centro Otico Serrano",
+          "afiliacoes": "179682149/753805930/162978793",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 23.29
+        },
+        {
+          "id": "212105711/223679751",
+          "cliente": "QUALITRAT MADEIRAS LTDA",
+          "afiliacoes": "212105711/223679751",
+          "segmento": "Materiais de Construção",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 18.06
+        },
+        {
+          "id": "203078173/978360057",
+          "cliente": "Otica mundial de Teresopolis",
+          "afiliacoes": "203078173/978360057",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 14.329999999999998
+        },
+        {
+          "id": "151971624/196436924/110245832",
+          "cliente": "Otica e joalheria evangelica de Teresopolis",
+          "afiliacoes": "151971624/196436924/110245832",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 14.270000000000001
+        },
+        {
+          "id": "424788922/101762184/602257858",
+          "cliente": "Olicios Pizzaria",
+          "afiliacoes": "424788922/101762184/602257858",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 7.720000000000001
+        },
+        {
+          "id": "103926992/198458684/912785020",
+          "cliente": "Otica exata de Teresopolis",
+          "afiliacoes": "103926992/198458684/912785020",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 3.7600000000000002
+        },
+        {
+          "id": "133497286/147082573/998024633",
+          "cliente": "Otica Bem te Vi",
+          "afiliacoes": "133497286/147082573/998024633",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 3.6299999999999994
+        },
+        {
+          "id": "147326574/114824850/843039122",
+          "cliente": "OTICA TERESOPOLIS",
+          "afiliacoes": "147326574/114824850/843039122",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 2.7399999999999998
+        },
+        {
+          "id": "103941927/128876041/570648019",
+          "cliente": "Otica Colibri",
+          "afiliacoes": "103941927/128876041/570648019",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 1.56
+        },
+        {
+          "id": "499727804/106256714",
+          "cliente": "Restaurante do alto",
+          "afiliacoes": "499727804/106256714",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 1.02
+        },
+        {
+          "id": "111969737/111234531/142779290",
+          "cliente": "Otica Universal de Teresopolis",
+          "afiliacoes": "111969737/111234531/142779290",
+          "segmento": "Moda e Acessórios",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.6299999999999999
+        },
+        {
+          "id": "106099626/186859219/955284579",
+          "cliente": "Piccola Torino",
+          "afiliacoes": "106099626/186859219/955284579",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.07
+        },
+        {
+          "id": "143688521/188385199/202638768",
+          "cliente": "Tech Box Lab",
+          "afiliacoes": "143688521/188385199/202638768",
+          "segmento": "Eletroeletrônicos",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        },
+        {
+          "id": "479503482/168372960/434788692",
+          "cliente": "Comercio de Utilidades e Racoes",
+          "afiliacoes": "479503482/168372960/434788692",
+          "segmento": "Petshops e Veterinários",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        },
+        {
+          "id": "294340924/159646010/585515336",
+          "cliente": "Quiosque da Barra",
+          "afiliacoes": "294340924/159646010/585515336",
+          "segmento": "Alimentação e Bebidas",
+          "principalidade": "Possui principalidade de saldo",
+          "receita": 0.0
+        }
+      ],
+      "hunter_total": 47,
+      "receita_hunter": 7651.4800000000005,
+      "churn": [
+        {
+          "id": "754705651",
+          "cliente": "Mad Garden",
+          "rota": "Rota Canario Pistola",
+          "afiliacoes": "754705651",
+          "receita": 1857.96,
+          "esp_credenciou": "Teresópolis"
+        },
+        {
+          "id": "153789801/130476195",
+          "cliente": "Mad Vagao",
+          "rota": "Rota Nobre",
+          "afiliacoes": "153789801/130476195",
+          "receita": 1273.23,
+          "esp_credenciou": "Teresópolis"
+        },
+        {
+          "id": "763922166",
+          "cliente": "MAD SUSHI",
+          "rota": "Rota Canario Pistola",
+          "afiliacoes": "763922166",
+          "receita": 1251.22,
+          "esp_credenciou": "Teresópolis"
+        },
+        {
+          "id": "499727804/106256714",
+          "cliente": "Restaurante do alto",
+          "rota": "Rota Canario Pistola",
+          "afiliacoes": "499727804/106256714",
+          "receita": 877.75,
+          "esp_credenciou": "Teresópolis"
+        },
+        {
+          "id": "259276002/280677762/960519290",
+          "cliente": "Herois e Pizza",
+          "rota": "Rota Canario Pistola",
+          "afiliacoes": "259276002/280677762/960519290",
+          "receita": 874.21,
+          "esp_credenciou": "Teresópolis"
+        },
+        {
+          "id": "196658128/149684097",
+          "cliente": "BENTO RESTAURANTE",
+          "rota": "Rota Rei do Gado",
+          "afiliacoes": "196658128/149684097",
+          "receita": 749.13,
+          "esp_credenciou": "Teresópolis"
+        },
+        {
+          "id": "479503482/168372960/434788692",
+          "cliente": "Comercio de Utilidades e Racoes",
+          "rota": "Rota Guapi",
+          "afiliacoes": "479503482/168372960/434788692",
+          "receita": 656.14,
+          "esp_credenciou": "Teresópolis"
+        },
+        {
+          "id": "171254537/286001132",
+          "cliente": "HortTere1",
+          "rota": "Rota Rei do Gado",
+          "afiliacoes": "171254537/286001132",
+          "receita": 566.55,
+          "esp_credenciou": "Teresópolis"
+        },
+        {
+          "id": "124453064/412951284",
+          "cliente": "Rei do Queijo",
+          "rota": "Rota Canario Pistola",
+          "afiliacoes": "124453064/412951284",
+          "receita": 291.61,
+          "esp_credenciou": "Petrópolis"
+        },
+        {
+          "id": "106099626/186859219/955284579",
+          "cliente": "Piccola Torino",
+          "rota": "Rota Canario Pistola",
+          "afiliacoes": "106099626/186859219/955284579",
+          "receita": 121.22,
+          "esp_credenciou": "Teresópolis"
+        }
+      ],
+      "churn_total": 10,
+      "receita_churn": 8519.02
+    }
+  ]
+}
