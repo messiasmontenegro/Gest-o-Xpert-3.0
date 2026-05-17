@@ -53,6 +53,15 @@
   .meta-label{font-size:10px;text-transform:uppercase;letter-spacing:1.2px;color:#8FB8A3;font-weight:600}
   .meta-value{font-size:13px;font-weight:700;color:#fff;font-family:'JetBrains Mono',monospace;margin-top:2px}
 
+  #sync-badge{display:inline-flex;align-items:center;gap:6px}
+  .sync-dot{width:8px;height:8px;border-radius:50%;background:#8FB8A3;transition:background .2s}
+  .sync-text{font-size:11px;font-weight:600;color:#A8C8B6;letter-spacing:.3px}
+  #sync-badge[data-state="syncing"] .sync-dot{background:#FBBF24;animation:sync-pulse 1.2s ease-in-out infinite}
+  #sync-badge[data-state="ok"] .sync-dot{background:#34D399}
+  #sync-badge[data-state="error"] .sync-dot{background:#F87171}
+  #sync-badge[data-state="warn"] .sync-dot{background:#FBBF24}
+  @keyframes sync-pulse{0%,100%{opacity:1}50%{opacity:.4}}
+
   /* ===== TABS BAR ===== */
   .tabs-wrap{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10;box-shadow:var(--shadow-sm)}
   .tabs{
@@ -519,6 +528,10 @@
       <span class="meta-label">Carteira</span>
       <span class="meta-value" id="m-carteira">—</span>
     </div>
+    <div class="meta-item">
+      <span class="meta-label">Sync</span>
+      <span class="meta-value" id="sync-badge"><span class="sync-dot"></span><span class="sync-text">—</span></span>
+    </div>
   </div>
 </header>
 
@@ -528,11 +541,17 @@
 
 <script>
 (async function bootGestaoXpert() {
+  // ============================================================
+  //  CONFIGURAÇÃO — após deploy do Apps Script, cole aqui a URL
+  // ============================================================
+  const SYNC_URL = https://script.google.com/a/macros/stone.com.br/s/AKfycby58Uwn0M3Xtk7yzKx0Z_gpvEnvvUFsv57tIX7Ij81OteG7Ijfo5NBqyYIo3D2OTXsu/exec;     // ⇦ SYNC_URL
+  const POLL_INTERVAL_MS = 30000;                              // refresh a cada 30s
+
   // ===== Bootstrap: busca payload.json hospedado junto do HTML =====
   let DATA;
   const loadingEl = document.getElementById('app-loading');
   try {
-    const url = './payload.json?t=' + Date.now();   // cache-bust
+    const url = './payload.json?t=' + Date.now();
     const res = await fetch(url, { cache: 'no-store' });
     if (!res.ok) throw new Error('HTTP ' + res.status + ' ao buscar payload.json');
     DATA = await res.json();
@@ -606,33 +625,109 @@ function renderResumoIndividual(esp){
     </div>`;
 }
 
-// ===== Persistência local (matinais) =====
-const STORE_KEY = 'gestao_xpert_estoque_v1';
-function loadStore(){ try { return JSON.parse(localStorage.getItem(STORE_KEY) || '{}'); } catch(e){ return {}; } }
-function saveStore(s){ localStorage.setItem(STORE_KEY, JSON.stringify(s)); }
-let STORE = loadStore();
-function getState(id){ return STORE[id] || { ativar:null, data:null }; }
-function setState(id, patch){
-  STORE[id] = Object.assign({ ativar:null, data:null }, STORE[id]||{}, patch);
-  saveStore(STORE);
-}
-function resetEstoque(email){
-  const ids = DATA.especialistas.find(e=>e.email===email).estoque.map(x=>x.id);
-  ids.forEach(id => { delete STORE[id]; });
-  saveStore(STORE);
+// ===== Storage layer com sync via Apps Script =====
+// Cache local em memória (espelho do servidor). Edições são otimistas:
+// atualizam o local instantaneamente e enviam pro servidor em background.
+let STORE = {};        // estoque: { [afiliacao]: { ativar, data } }
+let CHURN_MOT = {};    // churn:   { [afiliacao]: { motivo, voltar, data } }
+let SYNC_STATUS = { state: 'init', lastSync: null, error: null };
+const pendingSync = new Set();   // IDs com POST em vôo (não sobrescrever via polling)
+
+// === Helpers de chamada ao Apps Script ===
+function isSyncConfigured(){
+  return typeof SYNC_URL === 'string' && SYNC_URL.startsWith('https://script.google.com');
 }
 
-// ===== Persistência dos motivos de churn =====
-const CHURN_KEY = 'gestao_xpert_churn_motivo_v1';
-let CHURN_MOT = {};
-try { CHURN_MOT = JSON.parse(localStorage.getItem(CHURN_KEY) || '{}'); } catch(e){ CHURN_MOT = {}; }
-// Migração: formato antigo era string solto (motivo). Converte para objeto.
-Object.keys(CHURN_MOT).forEach(id => {
-  if (typeof CHURN_MOT[id] === 'string') {
-    CHURN_MOT[id] = { motivo: CHURN_MOT[id], voltar: null, data: null };
+async function callSync(method, body){
+  if (!isSyncConfigured()){
+    throw new Error('SYNC_URL não configurada');
   }
-});
-function saveChurn(){ localStorage.setItem(CHURN_KEY, JSON.stringify(CHURN_MOT)); }
+  const opts = { method, cache:'no-store' };
+  if (method === 'POST'){
+    // text/plain evita preflight CORS no Apps Script
+    opts.headers = { 'Content-Type':'text/plain;charset=utf-8' };
+    opts.body = JSON.stringify(body);
+  }
+  const res = await fetch(SYNC_URL, opts);
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  const json = await res.json();
+  if (json.error) throw new Error(json.error);
+  return json;
+}
+
+function setSyncStatus(state, error){
+  SYNC_STATUS.state = state;
+  SYNC_STATUS.error = error || null;
+  if (state === 'ok') SYNC_STATUS.lastSync = new Date();
+  renderSyncBadge();
+}
+
+function renderSyncBadge(){
+  const el = document.getElementById('sync-badge');
+  if (!el) return;
+  const txt = el.querySelector('.sync-text');
+  el.dataset.state = SYNC_STATUS.state;
+  el.title = SYNC_STATUS.error || '';
+  const map = {
+    init:    'iniciando',
+    syncing: 'sincronizando…',
+    ok:      SYNC_STATUS.lastSync ? 'há ' + Math.max(0, Math.floor((Date.now()-SYNC_STATUS.lastSync)/1000)) + 's' : 'ok',
+    error:   'erro',
+    warn:    'modo local',
+    offline: 'offline',
+  };
+  if (txt) txt.textContent = map[SYNC_STATUS.state] || '—';
+}
+// Atualiza o "há Xs" da última sincronização periodicamente
+setInterval(renderSyncBadge, 5000);
+
+async function loadStateFromServer(){
+  try {
+    setSyncStatus('syncing');
+    const data = await callSync('GET');
+    // Não sobrescreve IDs com POST em vôo
+    const newEst = data.estoque || {};
+    const newChurn = data.churn || {};
+    Object.keys(newEst).forEach(id => { if (!pendingSync.has('e:'+id)) STORE[id] = newEst[id]; });
+    // remove ids que sumiram do servidor (foram limpos)
+    Object.keys(STORE).forEach(id => { if (!newEst[id] && !pendingSync.has('e:'+id)) delete STORE[id]; });
+    Object.keys(newChurn).forEach(id => { if (!pendingSync.has('c:'+id)) CHURN_MOT[id] = newChurn[id]; });
+    Object.keys(CHURN_MOT).forEach(id => { if (!newChurn[id] && !pendingSync.has('c:'+id)) delete CHURN_MOT[id]; });
+    setSyncStatus('ok');
+    return true;
+  } catch(err) {
+    setSyncStatus('error', err.message);
+    return false;
+  }
+}
+
+// === Funções de leitura/escrita do ESTOQUE ===
+function getState(id){
+  return STORE[id] || { ativar:null, data:null };
+}
+function setState(id, patch){
+  STORE[id] = Object.assign({ ativar:null, data:null }, STORE[id]||{}, patch);
+  // Sync otimista
+  pendingSync.add('e:'+id);
+  setSyncStatus('syncing');
+  callSync('POST', { action:'set_estoque', id, state: STORE[id] })
+    .then(() => { setSyncStatus('ok'); })
+    .catch(err => { setSyncStatus('error', err.message); })
+    .finally(() => { pendingSync.delete('e:'+id); });
+}
+async function resetEstoque(email){
+  const ids = DATA.especialistas.find(e=>e.email===email).estoque.map(x=>x.id);
+  ids.forEach(id => { delete STORE[id]; });
+  try {
+    setSyncStatus('syncing');
+    await callSync('POST', { action:'reset_estoque_emails', ids });
+    setSyncStatus('ok');
+  } catch(err) {
+    setSyncStatus('error', err.message);
+  }
+}
+
+// ===== Funções de leitura/escrita do CHURN =====
 function getChurnState(id){
   const v = CHURN_MOT[id];
   return v ? { motivo: v.motivo||'', voltar: v.voltar||null, data: v.data||null }
@@ -645,7 +740,13 @@ function setChurnState(id, patch){
   } else {
     delete CHURN_MOT[id];
   }
-  saveChurn();
+  // Sync otimista
+  pendingSync.add('c:'+id);
+  setSyncStatus('syncing');
+  callSync('POST', { action:'set_churn', id, state: next })
+    .then(() => { setSyncStatus('ok'); })
+    .catch(err => { setSyncStatus('error', err.message); })
+    .finally(() => { pendingSync.delete('c:'+id); });
 }
 
 // ===== Estado de colapso das seções da Operação =====
@@ -1563,6 +1664,37 @@ DATA.especialistas.forEach(esp => {
 
 renderOperacao();
 
+// ===== Sync inicial e polling periódico =====
+async function pollAndRefresh(){
+  const ok = await loadStateFromServer();
+  if (!ok) return;
+  renderOperacao();
+  const ativo = document.querySelector('.panel.active');
+  if (ativo && ativo.dataset.email && ativo.dataset.email !== OP_ID) {
+    const esp = DATA.especialistas.find(e => e.email === ativo.dataset.email);
+    if (esp) {
+      ativo.innerHTML = `
+        <div class="panel-header">
+          <div class="avatar">${esp.iniciais}</div>
+          <div class="panel-name">
+            <div class="big">${esp.nome}</div>
+            <div class="small">${esp.polo}</div>
+          </div>
+        </div>
+        ${renderResumoIndividual(esp)}
+        ${INDICATORS.map(ind => ind.renderIndividual(esp)).join('')}`;
+    }
+  }
+}
+
+if (isSyncConfigured()) {
+  await loadStateFromServer();
+  renderOperacao();
+  setInterval(pollAndRefresh, POLL_INTERVAL_MS);
+} else {
+  setSyncStatus('warn', 'SYNC_URL não configurada — decisões não serão compartilhadas');
+}
+
 function classDias(d){
   if (d <= 30) return 'ok';
   if (d <= 60) return 'warn';
@@ -1671,15 +1803,16 @@ document.addEventListener('click', (e) => {
   if (reset) {
     if (confirm('Limpar todas as respostas deste especialista?')) {
       const email = reset.dataset.reset;
-      resetEstoque(email);
-      const esp = DATA.especialistas.find(e=>e.email===email);
-      const sec = document.querySelector(`.panel[data-email="${email}"] [data-section="estoque"]`);
-      if (sec) {
-        const wrap = document.createElement('div');
-        wrap.innerHTML = IND_Estoque.renderIndividual(esp);
-        sec.replaceWith(wrap.firstElementChild);
-      }
-      renderOperacao();                                         // ⇦ idem
+      resetEstoque(email).then(() => {
+        const esp = DATA.especialistas.find(e=>e.email===email);
+        const sec = document.querySelector(`.panel[data-email="${email}"] [data-section="estoque"]`);
+        if (sec) {
+          const wrap = document.createElement('div');
+          wrap.innerHTML = IND_Estoque.renderIndividual(esp);
+          sec.replaceWith(wrap.firstElementChild);
+        }
+        renderOperacao();
+      });
     }
     return;
   }
